@@ -28,16 +28,6 @@ jobs:
           repository: vksir/hexo-blog
           path: hexo-blog
 
-      - name: nodejs install
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-
-      - name: hexo install
-        run: |
-          npm install hexo-cli -g
-          npm install
-
       - name: checkout hexo-theme-next
         uses: actions/checkout@v2
         with:
@@ -50,6 +40,11 @@ jobs:
           repository: vksir/blog-posts
           path: blog-posts
 
+      - name: nodejs install
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
       - name: set deploy private key
         env:
           PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
@@ -61,11 +56,17 @@ jobs:
       - name: organize repos
         run: |
           mkdir -p ~/hexo-blog
-          mv hexo-blog ~/hexo-blog
+          mv hexo-blog ~/
           mkdir -p ~/hexo-blog/themes/hexo-theme-next
-          mv hexo-theme-next ~/hexo-blog/themes/hexo-theme-next
+          mv hexo-theme-next ~/hexo-blog/themes/
           mkdir -p ~/hexo-blog/source/_posts/posts
-          mv blog-posts/posts ~/hexo-blog/source/_posts/posts
+          mv blog-posts/posts ~/hexo-blog/source/_posts/
+
+      - name: hexo install
+        run: |
+          cd ~/hexo-blog
+          npm install hexo-cli -g
+          npm install
 
       - name: hexo deploy
         run: |
