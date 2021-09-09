@@ -40,6 +40,7 @@ jobs:
           mkdir -p ~/.ssh/
           echo "$PRIVATE_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan 120.55.68.91 >> ~/.ssh/known_hosts
 
       - name: set git config
         run: |
@@ -61,14 +62,10 @@ jobs:
           npm install hexo-cli -g
           npm install
 
-#      - name: Setup Debug Session
+#      - name: debug
 #        uses: csexton/debugger-action@master
 
       - name: hexo deploy
         run: |
           cd ~/hexo-blog
           hexo g -f -d
-
-#      - name: Setup Debug Session
-#        uses: csexton/debugger-action@master
-
