@@ -53,6 +53,11 @@ jobs:
           echo "PRIVATE_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
 
+      - name: set git config
+        run: |
+          git config --global user.name 'vksir'
+          git config --global user.email 'v.kzhang@qq.com'
+
       - name: organize repos
         run: |
           mkdir -p ~/hexo-blog
