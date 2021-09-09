@@ -50,7 +50,7 @@ jobs:
           PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
         run: |
           mkdir -p ~/.ssh/
-          echo "PRIVATE_KEY" > ~/.ssh/id_rsa
+          echo "$PRIVATE_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan 120.55.68.91 >> ~/.ssh/known_hosts
 
