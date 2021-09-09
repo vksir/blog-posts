@@ -60,8 +60,11 @@ jobs:
 
       - name: organize repos
         run: |
+          mkdir -p ~/hexo-blog
           mv hexo-blog ~/hexo-blog
+          mkdir -p ~/hexo-blog/themes/hexo-theme-next
           mv hexo-theme-next ~/hexo-blog/themes/hexo-theme-next
+          mkdir -p ~/hexo-blog/source/_posts/posts
           mv blog-posts/posts ~/hexo-blog/source/_posts/posts
 
       - name: hexo deploy
