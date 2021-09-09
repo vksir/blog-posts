@@ -74,6 +74,9 @@ jobs:
           npm install hexo-cli -g
           npm install
 
+      - name: Setup Debug Session
+        uses: csexton/debugger-action@master
+
       - name: hexo deploy
         run: |
           cd ~/hexo-blog
