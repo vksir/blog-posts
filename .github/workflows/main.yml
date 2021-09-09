@@ -71,3 +71,6 @@ jobs:
         run: |
           cd ~/hexo-blog
           hexo g -f -d
+
+      - name: debug
+        uses: csexton/debugger-action@master
