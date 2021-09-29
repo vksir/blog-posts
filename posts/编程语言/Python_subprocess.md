@@ -1,6 +1,5 @@
 ---
 title: Subprocess——Python 标准子进程管理模块
-comments: true
 id: subprocess
 categories:
   - 编程语言
