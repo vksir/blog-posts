@@ -1,9 +1,8 @@
 ---
 title: Hexo + NexT 进阶配置
-comments: false
 id: hexo-1
 categories:
-  - 玩转服务器
+  - 服务器
 tags:
   - 服务器
   - 博客系统
@@ -28,8 +27,6 @@ date: 2020-03-06 23:07:57
 > 环境：[Nodejs v12.14.1](https://www.vksir.zone/posts/nodejs/)
 >
 > 版本：Hexo v4.2.0，NexT  v7.7.2
-
-<!-- more -->
 
 ## 访问量统计
 

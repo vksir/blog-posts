@@ -1,8 +1,7 @@
 ---
 title: 搭建 Jupyter Notebook 云代码执行笔记
-comments: false
 categories:
-  - 玩转服务器
+  - 服务器
 tags:
   - 服务器
   - 云笔记
@@ -20,8 +19,6 @@ id: jupyter-notebook
 > 环境：CentOS 7
 >
 > 需求：[Nginx](https://www.vksir.zone/posts/nginx/)，Python
-
-<!-- more -->
 
 ## 安装
 

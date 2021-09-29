@@ -1,8 +1,7 @@
 ---
 title: 搭建 Chevereto 个人图床
-comments: false
 categories:
-  - 玩转服务器
+  - 服务器
 tags:
   - 服务器
   - 图床
@@ -17,8 +16,6 @@ id: chevereto
 > 环境：CentOS 7
 >
 > 需求：[Nginx](https://www.vksir.zone/posts/nginx/)，[PHP 7.0-7.2](https://www.vksir.zone/posts/php/)（PHP 7.3 是不支持的，为此我特地把 PHP 换成了 7.2 版），[MySQL](https://www.vksir.zone/posts/mysql/)
-
-<!-- more -->
 
 ## 下载
 

@@ -1,9 +1,8 @@
 ---
 title: Linux | 安装 Nginx
-comments: false
 id: nginx
 categories:
-  - 玩转服务器
+  - 服务器
 tags:
   - Linux
   - 服务器
@@ -34,8 +33,6 @@ systemctl enable nginx
 这时访问 `http://IP` 就可以看到 Nginx 初始网页了。
 
 如果不能访问，一般是因为防火墙未开放端口，或者未设置安全组规则，如阿里、腾讯等国内 VPS 厂商，想访问其服务器端口，需在其控制台设置 `安全组规则`。请参照 [Firewall 防火墙管理](https://www.vksir.zone/posts/firewall/)。
-
-<!-- more -->
 
 ## Nginx 配置文件
 

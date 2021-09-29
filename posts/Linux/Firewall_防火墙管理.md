@@ -1,9 +1,8 @@
 ---
 title: Linux | Firewall 防火墙管理
-comments: false
 id: firewall
 categories:
-  - Linux 小记
+  - Linux
 tags:
   - Linux
   - Firewall
@@ -15,8 +14,6 @@ date: 2020-03-06 21:43:39
 > 主要内容：基本操作，端口开启关闭，安全组
 >
 > 环境：CentOS 7
-
-<!-- more -->
 
 常见的 Linux 防火墙有两种：iptables 和 firewall，不过呢，虽然他们是一种东西，但是 firewall 其实是通过调用 iptables 来实现功能的，firewall 对比起 iptables 多提供了一些桌面程序接口，实质上两者是一样的。
 

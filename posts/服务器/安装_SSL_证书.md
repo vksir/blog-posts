@@ -1,9 +1,8 @@
 ---
 title: 安装 SSL 证书
-comments: false
 id: ssl
 categories:
-  - 玩转服务器
+  - 服务器
 tags:
   - Linux
   - 服务器
@@ -16,8 +15,6 @@ date: 2020-03-11 00:04:21
 > 环境：CentOS 7
 >
 > 需求：[Nginx](https://www.vksir.zone/posts/nginx/)
-
-<!-- more -->
 
 ## 安装
 

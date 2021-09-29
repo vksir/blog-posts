@@ -1,9 +1,8 @@
 ---
 title: Linux | 安装 MySQL
-comments: false
 id: mysql
 categories:
-  - 玩转服务器
+  - 服务器
 tags:
   - Linux
   - 服务器
@@ -34,8 +33,6 @@ systemctl start mysqld
 # 设置开机启动
 systemctl enable mysqld
 ```
-
-<!-- more -->
 
 ## 配置 root 用户
 

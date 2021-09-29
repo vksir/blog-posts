@@ -1,9 +1,8 @@
 ---
 title: 搭建 Ghost 个人博客
-comments: false
 id: ghost
 categories:
-  - 玩转服务器
+  - 服务器
 tags:
   - 服务器
   - 博客系统
@@ -43,8 +42,6 @@ ghost install local
 # 登出
 exit
 ```
-
-<!-- more -->
 
 **特别注意：`/var/www/ghost` 及其下所有文件的所属为 `ghostuser:ghostuser`，请勿随意修改！**
 

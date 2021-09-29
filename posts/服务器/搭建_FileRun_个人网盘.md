@@ -1,9 +1,8 @@
 ---
 title: 搭建 FileRun 个人网盘
-comments: false
 id: filerun
 categories:
-  - 玩转服务器
+  - 服务器
 tags:
   - 服务器
   - 网盘
@@ -25,8 +24,6 @@ date: 2020-03-06 22:26:10
 > 环境：CentOS 7
 >
 > 需求：[Nginx](https://www.vksir.zone/posts/nginx/)，[PHP 7.1-7.3](https://www.vksir.zone/posts/php/)，[MySQL](https://www.vksir.zone/posts/mysql/)
-
-<!-- more -->
 
 ## 安装 FileRun
 

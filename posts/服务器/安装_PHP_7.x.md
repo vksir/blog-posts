@@ -1,9 +1,8 @@
 ---
 title: Linux | 安装 PHP 7.x
-comments: false
 id: php
 categories:
-  - 玩转服务器
+  - 服务器
 tags:
   - Linux
   - 服务器
@@ -28,8 +27,6 @@ yum list installed | grep php
 # 删除所有 php 包
 yum remove *php*
 ```
-
-<!-- more -->
 
 ## 安装 PHP
 

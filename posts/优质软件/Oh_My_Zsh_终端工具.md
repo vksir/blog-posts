@@ -1,9 +1,8 @@
 ---
 title: Oh My Zsh 终端工具
-comments: false
 id: onmyzsh
 categories:
-  - 良工尽用
+  - 优质软件
 tags:
   - 终端
   - 工具
@@ -15,8 +14,6 @@ date: 2020-03-06 23:02:54
 > 一款极其好用的终端工具，简单易上手。
 >
 > 环境：CentOS 7
-
-<!-- more -->
 
 ## 安装
 

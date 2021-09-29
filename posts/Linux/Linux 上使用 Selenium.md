@@ -1,9 +1,8 @@
 ---
 title: Linux 上使用 Selenium
-comments: false
 id: selenium
 categories:
-  - Linux 小记
+  - Linux
 tags:
   - Linux
   - 爬虫
@@ -25,8 +24,6 @@ google-chrome -version
 ```sh
 Google Chrome 83.0.4103.97
 ```
-
-<!-- more -->
 
 ## 安装 chromedriver
 

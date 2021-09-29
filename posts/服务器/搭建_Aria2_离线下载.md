@@ -1,9 +1,8 @@
 ---
 title: 搭建 Aria2 离线下载
-comments: false
 id: aria2
 categories:
-  - 玩转服务器
+  - 服务器
 tags:
   - 服务器
   - aria2
@@ -25,7 +24,6 @@ mkdir -p /root/.aria2
 touch /root/.aria2/aria2.session
 nano /root/.aria2/aria2.conf
 ```
-<!-- more -->
 
 `/root/.aria2/aria2.conf` 完整文件如下：
 

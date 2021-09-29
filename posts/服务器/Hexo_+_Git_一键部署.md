@@ -1,9 +1,8 @@
 ---
 title: Hexo + Git 一键部署
-comments: false
 id: hexo-2
 categories:
-  - 玩转服务器
+  - 服务器
 tags:
   - 服务器
   - 博客系统
@@ -19,8 +18,6 @@ date: 2020-03-06 23:10:28
 > - 快捷登录 SSH
 >
 > 环境：CentOS 7
-
-<!-- more -->
 
 ## 创建Git用户 && SSH快捷登录
 

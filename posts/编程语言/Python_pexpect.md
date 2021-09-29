@@ -1,6 +1,5 @@
 ---
 title: Pexpect——Python 自动化程序交互模块
-comments: false
 id: pexpect
 categories:
   - 编程语言
@@ -32,8 +31,6 @@ child = pexpect.spawn('ssh uesr@IP')	# 执行命令
 child.expect('password:')	# 期待程序输出 'password:'
 child.sendline(my_password)	# 向程序输入 my_password
 ```
-
-<!-- more -->
 
 ## spawn()
 

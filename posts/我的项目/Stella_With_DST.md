@@ -1,9 +1,8 @@
 ---
 title: Stella | 饥荒服务器管理 Wiki
-comments: true
 id: stella_dst
 categories:
-  - 白玉楼的应用商店
+  - 我的项目
 tags:
   - QQ 机器人
   - 饥荒
@@ -30,8 +29,6 @@ date: 2021-09-29 04:14:04
 #服务器名 player-list	显示当前在线玩家
 #服务器名 mod-list		显示服务器安装的 Mod
 ```
-
-<!-- more -->
 
 # 管理员 API
 

@@ -1,9 +1,8 @@
 ---
 title: FFmpeg 视频处理工具
-comments: false
 id: ffmpeg
 categories:
-  - 良工尽用
+  - 优质软件
 tags:
   - 视频处理
   - 工具
@@ -26,8 +25,6 @@ date: 2020-03-06 22:58:30
 > 环境：CentOS 7
 >
 > 需求：None
-
-<!-- more -->
 
 ## 安装
 

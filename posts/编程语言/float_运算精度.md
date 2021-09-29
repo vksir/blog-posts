@@ -1,6 +1,5 @@
 ---
 title: float 运算精度
-comments: false
 id: float
 categories:
   - 编程语言
@@ -18,8 +17,6 @@ False
 ```
 
 这是为什么呢？这就涉及到了**浮点运算的精度问题**。
-
-<!-- more -->
 
 ## Why
 

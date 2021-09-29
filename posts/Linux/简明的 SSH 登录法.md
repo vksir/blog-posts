@@ -1,9 +1,8 @@
 ---
 title: 简明的 SSH 登录法
-comments: false
 id: ssh
 categories:
-  - 玩转服务器
+  - Linux
 tags:
   - 服务器
   - Linux
@@ -25,8 +24,6 @@ ssh root@IP
 ##  使用密钥登录
 
 每次登录都要输密码，岂不是太过麻烦？使用密钥，就可以免密登录了。
-
-<!-- more -->
 
 ### 创建密钥对
 

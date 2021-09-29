@@ -1,9 +1,8 @@
 ---
 title: 搭建 NextCloud 个人网盘
-comments: false
 id: nextcloud
 categories:
-  - 玩转服务器
+  - 服务器
 tags:
   - 服务器
   - 网盘
@@ -27,8 +26,6 @@ date: 2020-03-06 22:55:46
 > 环境：CentOS 7
 > 
 > 需求：[Nginx](https://www.vksir.zone/posts/nginx/)，[PHP](https://www.vksir.zone/posts/php/)，[MySQL](https://www.vksir.zone/posts/mysql/)
-
-<!-- more -->
 
 ## 安装 NextCloud
 
