@@ -62,10 +62,12 @@ jobs:
           npm install hexo-cli -g
           npm install
 
-      - name: debug
-        uses: csexton/debugger-action@master
+#      - name: debug
+#        uses: csexton/debugger-action@master
 
       - name: hexo deploy
+        env:
+          GITALK_CLIENT_SECRET: ${{ secrets.GITALK_CLIENT_SECRET }}
         run: |
           cd ~/hexo-blog
           hexo g -f -d
