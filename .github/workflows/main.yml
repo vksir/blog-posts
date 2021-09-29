@@ -62,8 +62,8 @@ jobs:
           npm install hexo-cli -g
           npm install
 
-#      - name: debug
-#        uses: csexton/debugger-action@master
+      - name: debug
+        uses: csexton/debugger-action@master
 
       - name: hexo deploy
         run: |
