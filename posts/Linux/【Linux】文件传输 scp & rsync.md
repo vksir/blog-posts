@@ -4,9 +4,9 @@ categories:
 date: 2020-03-06 23:04:47
 id: rsync
 tags:
-- rsync
-- linux
 - scp
+- linux
+- rsync
 title: 【Linux】文件传输 scp & rsync
 ---
 
@@ -27,6 +27,8 @@ scp 文件传输采用 `SSH` 手段加密，安全有保障，但是相对应的
 
 ## rsync 文件同步
 
+<!-- more -->
+
 rsync 文件同步同样会采用 `SSH` 手段加密，但是它会事先校验哪些文件相同，相同的则不进行传输。且 rsync 功能更加强大，参数更多，适合真正意义上的「同步」。
 
 ```bash
@@ -35,8 +37,6 @@ rsync -vau --progress ~./hexo root@IP:/var/www
 # 服务器同步到本地
 rsync -vau --progress root@IP:/var/www ~./hexo
 ```
-
-<!-- more -->
 
 - -v，--verbose：详细模式输出
 - -q，--quiet：精简输出模式

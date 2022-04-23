@@ -4,9 +4,9 @@ categories:
 date: 2020-03-06 23:07:57
 id: hexo-1
 tags:
-- 服务器
 - hexo
 - 博客
+- 服务器
 title: 【Hexo】NexT 进阶配置
 ---
 
@@ -27,6 +27,8 @@ title: 【Hexo】NexT 进阶配置
 > 环境：[Nodejs v12.14.1](https://www.vksir.zone/posts/nodejs/)
 >
 > 版本：Hexo v4.2.0，NexT  v7.7.2
+
+<!-- more -->
 
 ## 访问量统计
 
@@ -93,8 +95,6 @@ title: 【Hexo】NexT 进阶配置
   阅读量: <span id="busuanzi_value_page_pv"></span>
 </span>
 ```
-
-<!-- more -->
 
 来自：
 

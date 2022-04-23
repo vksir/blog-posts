@@ -4,8 +4,8 @@ categories:
 date: 2020-03-06 21:43:39
 id: firewall
 tags:
-- firewall
 - linux
+- firewall
 title: 【Linux】Firewall 防火墙
 ---
 
@@ -26,6 +26,8 @@ systemctl disable iptables
 
 ## 基本操作
 
+<!-- more -->
+
 ```bash
 # 启动
 systemctl start firewalld
@@ -41,8 +43,6 @@ systemctl enable firewalld
 # 禁用开机自启
 systemctl disable firewalld
 ```
-
-<!-- more -->
 
 ## 端口开启 & 关闭
 

@@ -4,9 +4,9 @@ categories:
 date: 2020-03-06 22:36:00
 id: nginx
 tags:
-- 软件开发
-- nginx
 - linux
+- nginx
+- 软件开发
 title: 【Nginx】安装 Nginx
 ---
 
@@ -30,13 +30,13 @@ nginx
 systemctl enable nginx
 ```
 
+<!-- more -->
+
 这时访问 `http://IP` 就可以看到 Nginx 初始网页了。
 
 如果不能访问，一般是因为防火墙未开放端口，或者未设置安全组规则，如阿里、腾讯等国内 VPS 厂商，想访问其服务器端口，需在其控制台设置 `安全组规则`。请参照 [Firewall 防火墙管理](https://www.vksir.zone/posts/firewall/)。
 
 ## Nginx 配置文件
-
-<!-- more -->
 
 每次修改配置文件后，都需要重载配置文件才能使其生效。
 

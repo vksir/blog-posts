@@ -4,8 +4,8 @@ categories:
 date: 2020-03-06 22:26:10
 id: filerun
 tags:
-- 网盘
 - filerun
+- 网盘
 - 服务器
 title: 搭建 FileRun 个人网盘
 ---
@@ -28,6 +28,8 @@ title: 搭建 FileRun 个人网盘
 
 ## 安装 FileRun
 
+<!-- more -->
+
 ```bash
 # 创建安装目录
 mkdir -p /var/www/filerun && cd /var/www/filerun
@@ -36,8 +38,6 @@ wget -O FileRun.zip http://www.filerun.com/download-latest && unzip FileRun.zip
 # 更改安装目录权限
 chmod -Rf 777 /var/www/filerun
 ```
-
-<!-- more -->
 
 ## 配置 Nginx
 

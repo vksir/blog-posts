@@ -4,9 +4,9 @@ categories:
 date: 2020-03-06 23:10:28
 id: hexo-2
 tags:
-- 服务器
 - hexo
 - 博客
+- 服务器
 title: 【Hexo】Git 一键部署
 ---
 
@@ -33,9 +33,9 @@ passwd git
 usermod -G nginx git
 ```
 
-- 为什么需要将 `git`添加到 `nginx`用户组后面再聊~
-
 <!-- more -->
+
+- 为什么需要将 `git`添加到 `nginx`用户组后面再聊~
 
 ### SSH快捷登录
 

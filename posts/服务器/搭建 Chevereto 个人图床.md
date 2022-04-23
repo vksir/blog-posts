@@ -5,8 +5,8 @@ date: 2020-03-11 14:53:50
 id: chevereto
 tags:
 - 图床
-- 服务器
 - chevereto
+- 服务器
 title: 搭建 Chevereto 个人图床
 ---
 
@@ -32,11 +32,11 @@ wget -O chevereto.zip https://github.com/Chevereto/Chevereto-Free/releases
 x chevereto.zip
 ```
 
+<!-- more -->
+
 - x：来自 [Oh My Zsh 的 extract 插件](https://www.vksir.zone/posts/onmyzsh/)，任何压缩包一个 `x` 搞定。
 
 ## 配置 Nginx
-
-<!-- more -->
 
 需要 `伪静态` + `php-fpm`。
 

@@ -4,8 +4,8 @@ categories:
 date: 2021-07-12 22:55:46
 id: ssh
 tags:
-- ssh
 - linux
+- ssh
 title: 【Linux】SSH 常用命令
 ---
 
@@ -26,6 +26,8 @@ ssh -L <LOCAL_IP>:<LOCAL_PORT>:<REMOTE_IP>:<REMOTE_> <UESR>@<IP>
 
 ## 使用昵称登录
 
+<!-- more -->
+
 可以为服务器起一个「昵称」，然后用它来登录。
 
 打开 ssh 配置文件。
@@ -33,8 +35,6 @@ ssh -L <LOCAL_IP>:<LOCAL_PORT>:<REMOTE_IP>:<REMOTE_> <UESR>@<IP>
 ```sh
 vim ~/.ssh/config
 ```
-
-<!-- more -->
 
 输入以下内容。
 

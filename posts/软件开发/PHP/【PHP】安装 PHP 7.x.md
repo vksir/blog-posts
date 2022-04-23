@@ -27,6 +27,8 @@ yum list installed | grep php
 yum remove *php*
 ```
 
+<!-- more -->
+
 ## 安装 PHP
 
 ```bash
@@ -43,8 +45,6 @@ yum search php
 # 安装 php 7.2
 yum install -y php72-php-fpm php72-php-cli php72-php-xmll php72-php-mcrypt php72-php-mysqlnd php72-php-pdo
 ```
-
-<!-- more -->
 
 php 有非常多组件，一开始并不需要装那么多，待到需要的时候再选择性安装就行了。
 

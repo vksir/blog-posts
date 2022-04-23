@@ -4,8 +4,8 @@ categories:
 date: 2020-03-06 22:50:48
 id: aria2
 tags:
-- 服务器
 - aria2
+- 服务器
 title: 搭建 Aria2 离线下载
 ---
 
@@ -26,6 +26,8 @@ nano /root/.aria2/aria2.conf
 ```
 
 `/root/.aria2/aria2.conf` 完整文件如下：
+
+<!-- more -->
 
 ```aria2
 # /root/.aria2/aria2.conf
@@ -110,8 +112,6 @@ bt-seed-unverified=true
 # 保存磁力链接元数据为 .torrent 文件
 bt-save-metadata=true
 ```
-
-<!-- more -->
 
 ```bash
 # 启动 Aria2

@@ -4,8 +4,8 @@ categories:
 date: 2021-09-29 04:14:04
 id: stella_dst
 tags:
-- 个人项目
 - 饥荒
+- 个人项目
 - qq 机器人
 title: 智能助理——Stella
 ---
@@ -31,11 +31,11 @@ title: 智能助理——Stella
 #服务器名 mod-list		显示服务器安装的 Mod
 ```
 
+<!-- more -->
+
 # 管理员 API
 
 ## 基本管理
-
-<!-- more -->
 
 ```
 #服务器名 start			启动服务器

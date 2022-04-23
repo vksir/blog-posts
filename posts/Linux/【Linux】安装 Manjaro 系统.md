@@ -5,8 +5,8 @@ comments: false
 date: 2022-04-23 18:18:50.281708
 id: manjaro
 tags:
-- manjaro
 - linux
+- manjaro
 title: 【Linux】安装 Manjaro 系统
 ---
 
@@ -27,6 +27,8 @@ title: 【Linux】安装 Manjaro 系统
 
 据说是要使用 `dd` 模式进行刻录，但是目前的 Rufus v3.9 并没有 `dd` 模式，或许要使用低版本的 Rufus，或许不需要（距离上次安装有点久，有点忘了，下次安装系统再修改）。
 
+<!-- more -->
+
 ## 安装
 
 ### 从 U 盘启动
@@ -34,8 +36,6 @@ title: 【Linux】安装 Manjaro 系统
 如我的电脑——Acer Swift 5，其 bios 系统中存在 `UEFI 安全模式`，将其关掉。
 
 ### 安装
-
-<!-- more -->
 
 #### 1.
 

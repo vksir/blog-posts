@@ -4,8 +4,8 @@ categories:
 date: 2020-03-06 22:58:30
 id: ffmpeg
 tags:
-- 优质工具
 - 视频处理
+- 优质工具
 title: 【优质工具】FFmpeg 视频处理
 ---
 
@@ -25,6 +25,8 @@ title: 【优质工具】FFmpeg 视频处理
 > 环境：CentOS 7
 >
 > 需求：None
+
+<!-- more -->
 
 ## 安装
 
@@ -54,8 +56,6 @@ ln -s /usr/local/ffmpeg/ffprobe /usr/local/bin
 # 查看版本
 ffmpeg -version
 ```
-
-<!-- more -->
 
 在解压命令中：
 

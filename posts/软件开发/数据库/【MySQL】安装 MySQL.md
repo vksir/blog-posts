@@ -4,10 +4,10 @@ categories:
 date: 2020-03-06 21:38:10
 id: mysql
 tags:
-- 数据库
-- 软件开发
 - mysql
+- 软件开发
 - linux
+- 数据库
 title: 【MySQL】安装 MySQL
 ---
 
@@ -35,9 +35,9 @@ systemctl start mysqld
 systemctl enable mysqld
 ```
 
-## 配置 root 用户
-
 <!-- more -->
+
+## 配置 root 用户
 
 ```mysql
 # 获取临时密码

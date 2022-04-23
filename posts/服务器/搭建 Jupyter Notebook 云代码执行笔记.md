@@ -5,8 +5,8 @@ date: 2020-04-16 17:04:16
 id: jupyter-notebook
 tags:
 - 云笔记
-- 服务器
 - jupyter
+- 服务器
 title: 搭建 Jupyter Notebook 云代码执行笔记
 ---
 
@@ -32,12 +32,12 @@ pip3 install jupyter
 jupyter notebook --ip=0.0.0.0 --no-browser --allow-root --port=8888
 ```
 
+<!-- more -->
+
 - --ip=0.0.0.0：指定 IP 为本机 IP
 - --no-browser：启动后会默认打开浏览器，这里我在远端服务器上使用，选择不打开浏览器
 - --allow-root：允许使用 root 用户运行
 - --port=8888：默认监听 8888 端口，可修改
-
-<!-- more -->
 
 现在可以打开浏览器进入 `http://IP:8888` 就可以看到 Jupyter NoteBook 的登录界面了。
 

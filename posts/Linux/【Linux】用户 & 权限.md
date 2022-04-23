@@ -25,6 +25,8 @@ useradd username -s /usr/sbin/nologin
 
 删除用户
 
+<!-- more -->
+
 ```bash
 userdel username
 ```
@@ -34,8 +36,6 @@ userdel username
 ```bash
 passwd username
 ```
-
-<!-- more -->
 
 切换用户
 

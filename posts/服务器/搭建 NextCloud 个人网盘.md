@@ -4,8 +4,8 @@ categories:
 date: 2020-03-06 22:55:46
 id: nextcloud
 tags:
-- 网盘
 - nextcloud
+- 网盘
 - 服务器
 title: 搭建 NextCloud 个人网盘
 ---
@@ -28,6 +28,8 @@ title: 搭建 NextCloud 个人网盘
 > 
 > 需求：[Nginx](https://www.vksir.zone/posts/nginx/)，[PHP](https://www.vksir.zone/posts/php/)，[MySQL](https://www.vksir.zone/posts/mysql/)
 
+<!-- more -->
+
 ## 安装 NextCloud
 
 ```bash
@@ -38,8 +40,6 @@ wget -O nextcloud.zip https://download.nextcloud.com/server/releases/nextcloud-1
 # 更改安装目录权限
 chmod -Rf 777 /var/www/nextcloud
 ```
-
-<!-- more -->
 
 ## 配置 Nginx
 

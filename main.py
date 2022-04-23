@@ -14,7 +14,7 @@ class Post:
     METADATE_UPDATED = 'updated'
 
     TEXT_MORE = '<!-- more -->'
-    TEXT_MORE_LINES = 24
+    TEXT_MORE_LINES = 16
 
     def __init__(self, path, filename, category, tags):
         self.path = path
@@ -61,8 +61,7 @@ class Post:
         self.metadata = yaml.dump(data, allow_unicode=True)
 
     def _complete_text_more(self):
-        if self.TEXT_MORE in self.text:
-            return
+        self.text = re.sub(r'\n%s\n' % self.TEXT_MORE, '', self.text)
 
         lines = self.text.splitlines()
         i = 0

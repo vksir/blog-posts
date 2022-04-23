@@ -27,6 +27,8 @@ Google Chrome 83.0.4103.97
 
 ## 安装 chromedriver
 
+<!-- more -->
+
 [chromedriver 淘宝镜像网站](http://npm.taobao.org/mirrors/chromedriver/)
 
 ```sh
@@ -37,8 +39,6 @@ wget http://npm.taobao.org/mirrors/chromedriver/83.0.4103.39/chromedriver_linux6
 x chromedriver_linux64.zip
 mv ./chromedriver_linux64/chromedriver /usr/local/bin
 ```
-
-<!-- more -->
 
 ## 安装虚拟桌面
 

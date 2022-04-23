@@ -4,10 +4,10 @@ categories:
 date: 2021-08-07 12:56:59
 id: subprocess
 tags:
-- subprocess
+- python
 - 软件开发
 - shell
-- python
+- subprocess
 title: 【Python】进程管理之 subprocess
 ---
 

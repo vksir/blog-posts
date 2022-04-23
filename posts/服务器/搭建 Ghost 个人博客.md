@@ -5,8 +5,8 @@ date: 2020-03-06 22:14:19
 id: ghost
 tags:
 - ghost
-- 服务器
 - 博客
+- 服务器
 title: 搭建 Ghost 个人博客
 ---
 
@@ -29,6 +29,8 @@ title: 搭建 Ghost 个人博客
 npm install ghost-cli@latest -g
 ```
 
+<!-- more -->
+
 选择一个目录作为 Ghost 的安装目录，个人建议将其放在 `/var/www` 中。
 
 ```bash
@@ -43,8 +45,6 @@ ghost install local
 # 登出
 exit
 ```
-
-<!-- more -->
 
 **特别注意：`/var/www/ghost` 及其下所有文件的所属为 `ghostuser:ghostuser`，请勿随意修改！**
 

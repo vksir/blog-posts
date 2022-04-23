@@ -4,9 +4,9 @@ categories:
 date: 2020-03-05 18:48:04
 id: nodejs
 tags:
-- 软件开发
-- linux
 - nodejs
+- linux
+- 软件开发
 title: 【Nodejs】安装 Nodejs
 ---
 
@@ -27,6 +27,8 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 ```
 
+<!-- more -->
+
 ### 添加永久的环境变量
 
 这意味着每次登录 shell 后，会自动加载这些环境变量
@@ -35,8 +37,6 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 echo export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")" >> /etc/profile
 echo "[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"" >> /etc/profile
 ```
-
-<!-- more -->
 
 ## 安装 nodejs
 

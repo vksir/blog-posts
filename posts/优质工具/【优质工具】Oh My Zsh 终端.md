@@ -27,6 +27,8 @@ reboot
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+<!-- more -->
+
 有什么好处呢？用了就知道了！
 
 ## 主题
@@ -34,8 +36,6 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 第一个好处就是漂亮！
 
 有多少种主题？
-
-<!-- more -->
 
 ```bash
 ls ~/.oh-my-zsh/themes
