@@ -4,9 +4,9 @@ categories:
 date: 2020-03-06 23:04:47
 id: rsync
 tags:
-- scp
-- rsync
 - linux
+- rsync
+- scp
 title: 【Linux】文件传输 scp & rsync
 ---
 

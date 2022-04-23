@@ -5,9 +5,9 @@ date: 2021-08-07 15:10:04
 id: float
 tags:
 - float
-- 软件开发
 - python
-title: Float 运算精度
+- 软件开发
+title: 【Python】Float 运算精度
 ---
 
 如果有一天，有人告诉你三个 0.1 加起来不等于 0.3 你会不会觉得很惊讶？但事实如此：

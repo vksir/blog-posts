@@ -4,9 +4,9 @@ categories:
 date: 2020-03-11 00:04:21
 id: ssl
 tags:
-- ssl
-- nginx
 - linux
+- nginx
+- ssl
 - 软件开发
 title: 【Nginx】安装 SSL 证书
 ---

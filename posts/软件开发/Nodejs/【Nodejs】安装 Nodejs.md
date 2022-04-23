@@ -4,9 +4,9 @@ categories:
 date: 2020-03-05 18:48:04
 id: nodejs
 tags:
+- linux
 - nodejs
 - 软件开发
-- linux
 title: 【Nodejs】安装 Nodejs
 ---
 

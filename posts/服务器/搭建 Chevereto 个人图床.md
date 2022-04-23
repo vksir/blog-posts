@@ -5,8 +5,8 @@ date: 2020-03-11 14:53:50
 id: chevereto
 tags:
 - chevereto
-- 服务器
 - 图床
+- 服务器
 title: 搭建 Chevereto 个人图床
 ---
 

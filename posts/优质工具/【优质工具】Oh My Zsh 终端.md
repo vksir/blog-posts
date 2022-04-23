@@ -4,8 +4,8 @@ categories:
 date: 2020-03-06 23:02:54
 id: onmyzsh
 tags:
-- 优质工具
 - shell
+- 优质工具
 title: 【优质工具】Oh My Zsh 终端
 ---
 

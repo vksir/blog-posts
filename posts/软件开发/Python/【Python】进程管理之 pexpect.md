@@ -5,9 +5,9 @@ date: 2021-07-27 01:25:04
 id: pexpect
 tags:
 - pexpect
-- 软件开发
 - python
 - shell
+- 软件开发
 title: 【Python】进程管理之 pexpect
 ---
 

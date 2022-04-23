@@ -4,8 +4,8 @@ categories:
 date: 2022-04-23 18:05:32.294698
 id: go_requests
 tags:
-- 软件开发
 - go
+- 软件开发
 title: 【Go】实现 requests 库
 ---
 

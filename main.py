@@ -55,6 +55,7 @@ class Post:
         # tags
         tags = data.get(self.METADATE_TAGS, [])
         data[self.METADATE_TAGS] = list(set(tag.lower() for tag in set(tags + self.tags)))
+        data[self.METADATE_TAGS].sort()
         # date
         data.setdefault(self.METADATE_DATE, datetime.datetime.now())
 

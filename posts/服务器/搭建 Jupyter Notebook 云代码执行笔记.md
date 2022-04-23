@@ -4,8 +4,8 @@ categories:
 date: 2020-04-16 17:04:16
 id: jupyter-notebook
 tags:
-- 云笔记
 - jupyter
+- 云笔记
 - 服务器
 title: 搭建 Jupyter Notebook 云代码执行笔记
 ---

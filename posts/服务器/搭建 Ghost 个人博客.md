@@ -5,8 +5,8 @@ date: 2020-03-06 22:14:19
 id: ghost
 tags:
 - ghost
-- 服务器
 - 博客
+- 服务器
 title: 搭建 Ghost 个人博客
 ---
 

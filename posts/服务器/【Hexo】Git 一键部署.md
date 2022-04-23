@@ -5,8 +5,8 @@ date: 2020-03-06 23:10:28
 id: hexo-2
 tags:
 - hexo
-- 服务器
 - 博客
+- 服务器
 title: 【Hexo】Git 一键部署
 ---
 

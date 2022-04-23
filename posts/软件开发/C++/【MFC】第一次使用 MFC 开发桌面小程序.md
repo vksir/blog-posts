@@ -4,9 +4,9 @@ categories:
 date: 2022-04-23 18:15:14.208366
 id: mfc
 tags:
-- 软件开发
-- mfc
 - c++
+- mfc
+- 软件开发
 title: 【MFC】第一次使用 MFC 开发桌面小程序
 ---
 

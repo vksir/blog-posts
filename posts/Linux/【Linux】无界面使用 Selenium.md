@@ -4,8 +4,8 @@ categories:
 date: 2021-07-12 23:04:47
 id: selenium
 tags:
-- selenium
 - linux
+- selenium
 title: 【Linux】无界面使用 Selenium
 ---
 

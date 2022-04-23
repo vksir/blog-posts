@@ -4,8 +4,8 @@ categories:
 date: 2020-03-06 22:41:08
 id: php
 tags:
-- 软件开发
 - php
+- 软件开发
 title: 【PHP】安装 PHP 7.x
 ---
 
