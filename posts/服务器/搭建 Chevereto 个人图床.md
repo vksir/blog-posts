@@ -4,9 +4,9 @@ categories:
 date: 2020-03-11 14:53:50
 id: chevereto
 tags:
-- 图床
 - chevereto
 - 服务器
+- 图床
 title: 搭建 Chevereto 个人图床
 ---
 
@@ -20,6 +20,8 @@ title: 搭建 Chevereto 个人图床
 
 ## 下载
 
+<!-- more -->
+
 前往 [GitHub](https://github.com/Chevereto/Chevereto-Free/releases)，下载最新发布。
 
 ```bash
@@ -31,8 +33,6 @@ wget -O chevereto.zip https://github.com/Chevereto/Chevereto-Free/releases
 # 解压
 x chevereto.zip
 ```
-
-<!-- more -->
 
 - x：来自 [Oh My Zsh 的 extract 插件](https://www.vksir.zone/posts/onmyzsh/)，任何压缩包一个 `x` 搞定。
 

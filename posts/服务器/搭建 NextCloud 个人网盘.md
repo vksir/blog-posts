@@ -5,8 +5,8 @@ date: 2020-03-06 22:55:46
 id: nextcloud
 tags:
 - nextcloud
-- 网盘
 - 服务器
+- 网盘
 title: 搭建 NextCloud 个人网盘
 ---
 

@@ -5,8 +5,8 @@ date: 2021-09-29 04:14:04
 id: stella_dst
 tags:
 - 饥荒
-- 个人项目
 - qq 机器人
+- 个人项目
 title: 智能助理——Stella
 ---
 
@@ -20,6 +20,8 @@ title: 智能助理——Stella
 - 输入指令必须以 `#` 开头。
 - 服务器名见公告，当前只有 **极光** 和 **矮星** 两台服务器搭载了此功能。
 
+<!-- more -->
+
 如：
 
 ![image-20210929030359399](https://static.vksir.zone/img/image-20210929030359399.png)
@@ -30,8 +32,6 @@ title: 智能助理——Stella
 #服务器名 player-list	显示当前在线玩家
 #服务器名 mod-list		显示服务器安装的 Mod
 ```
-
-<!-- more -->
 
 # 管理员 API
 

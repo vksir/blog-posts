@@ -20,6 +20,8 @@ title: 搭建 Jupyter Notebook 云代码执行笔记
 >
 > 需求：[Nginx](https://www.vksir.zone/posts/nginx/)，Python
 
+<!-- more -->
+
 ## 安装
 
 非常简单，这里我是基于 python 3 安装的，当然 python 2 也可以。
@@ -31,8 +33,6 @@ pip3 install jupyter
 # 启动
 jupyter notebook --ip=0.0.0.0 --no-browser --allow-root --port=8888
 ```
-
-<!-- more -->
 
 - --ip=0.0.0.0：指定 IP 为本机 IP
 - --no-browser：启动后会默认打开浏览器，这里我在远端服务器上使用，选择不打开浏览器

@@ -4,8 +4,8 @@ categories:
 date: 2021-07-12 23:04:47
 id: selenium
 tags:
-- linux
 - selenium
+- linux
 title: 【Linux】无界面使用 Selenium
 ---
 
@@ -21,13 +21,13 @@ yum install https://dl.google.com/linux/direct/google-chrome-stable_current_x86_
 google-chrome -version
 ```
 
+<!-- more -->
+
 ```sh
 Google Chrome 83.0.4103.97
 ```
 
 ## 安装 chromedriver
-
-<!-- more -->
 
 [chromedriver 淘宝镜像网站](http://npm.taobao.org/mirrors/chromedriver/)
 

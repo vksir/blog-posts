@@ -5,8 +5,8 @@ date: 2020-03-06 23:07:57
 id: hexo-1
 tags:
 - hexo
-- 博客
 - 服务器
+- 博客
 title: 【Hexo】NexT 进阶配置
 ---
 

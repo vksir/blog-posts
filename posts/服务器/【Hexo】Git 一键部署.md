@@ -5,8 +5,8 @@ date: 2020-03-06 23:10:28
 id: hexo-2
 tags:
 - hexo
-- 博客
 - 服务器
+- 博客
 title: 【Hexo】Git 一键部署
 ---
 
@@ -20,6 +20,8 @@ title: 【Hexo】Git 一键部署
 >
 > 环境：CentOS 7
 
+<!-- more -->
+
 ## 创建Git用户 && SSH快捷登录
 
 ### 创建Git用户
@@ -32,8 +34,6 @@ passwd git
 # 添加用户到nginx用户组
 usermod -G nginx git
 ```
-
-<!-- more -->
 
 - 为什么需要将 `git`添加到 `nginx`用户组后面再聊~
 

@@ -4,10 +4,10 @@ categories:
 date: 2021-07-27 01:25:04
 id: pexpect
 tags:
-- python
-- 软件开发
-- shell
 - pexpect
+- 软件开发
+- python
+- shell
 title: 【Python】进程管理之 pexpect
 ---
 
@@ -22,13 +22,13 @@ title: 【Python】进程管理之 pexpect
 - 实时进行程序输入
 - 定时进行程序重启
 
+<!-- more -->
+
 等功能要求。
 
 要求不是很多，也不是很复杂，但 Pexpect 完成得不是很好。
 
 ## 开始
-
-<!-- more -->
 
 ```python
 child = pexpect.spawn('ssh uesr@IP')	# 执行命令

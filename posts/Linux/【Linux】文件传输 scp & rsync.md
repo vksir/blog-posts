@@ -5,8 +5,8 @@ date: 2020-03-06 23:04:47
 id: rsync
 tags:
 - scp
-- linux
 - rsync
+- linux
 title: 【Linux】文件传输 scp & rsync
 ---
 
@@ -21,13 +21,13 @@ scp -r ~./hexo root@IP:/var/www
 scp -r root@IP:/var/www ~./hexo
 ```
 
+<!-- more -->
+
 - -r：传输目录，不加即「传输文件」
 
 scp 文件传输采用 `SSH` 手段加密，安全有保障，但是相对应的，传输速度会稍微慢一点。
 
 ## rsync 文件同步
-
-<!-- more -->
 
 rsync 文件同步同样会采用 `SSH` 手段加密，但是它会事先校验哪些文件相同，相同的则不进行传输。且 rsync 功能更加强大，参数更多，适合真正意义上的「同步」。
 

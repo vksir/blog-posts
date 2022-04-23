@@ -5,8 +5,8 @@ date: 2020-03-05 18:48:04
 id: nodejs
 tags:
 - nodejs
-- linux
 - 软件开发
+- linux
 title: 【Nodejs】安装 Nodejs
 ---
 
@@ -20,14 +20,14 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
 
 ### 添加暂时的环境变量
 
+<!-- more -->
+
 这将在登出 shell 后失效
 
 ```bash
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 ```
-
-<!-- more -->
 
 ### 添加永久的环境变量
 

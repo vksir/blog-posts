@@ -5,8 +5,8 @@ date: 2020-03-06 22:26:10
 id: filerun
 tags:
 - filerun
-- 网盘
 - 服务器
+- 网盘
 title: 搭建 FileRun 个人网盘
 ---
 
@@ -26,9 +26,9 @@ title: 搭建 FileRun 个人网盘
 >
 > 需求：[Nginx](https://www.vksir.zone/posts/nginx/)，[PHP 7.1-7.3](https://www.vksir.zone/posts/php/)，[MySQL](https://www.vksir.zone/posts/mysql/)
 
-## 安装 FileRun
-
 <!-- more -->
+
+## 安装 FileRun
 
 ```bash
 # 创建安装目录

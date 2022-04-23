@@ -25,9 +25,9 @@ touch /root/.aria2/aria2.session
 nano /root/.aria2/aria2.conf
 ```
 
-`/root/.aria2/aria2.conf` 完整文件如下：
-
 <!-- more -->
+
+`/root/.aria2/aria2.conf` 完整文件如下：
 
 ```aria2
 # /root/.aria2/aria2.conf

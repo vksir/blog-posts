@@ -19,13 +19,13 @@ useradd username -s /bin/bash -d /home/username -m /home/username
 useradd username -s /usr/sbin/nologin
 ```
 
+<!-- more -->
+
 - -s：指定 shell
 - -d：指定 home 目录
 - -m：创建 home 目录
 
 删除用户
-
-<!-- more -->
 
 ```bash
 userdel username

@@ -4,9 +4,9 @@ categories:
 date: 2020-03-06 22:36:00
 id: nginx
 tags:
-- linux
-- nginx
 - 软件开发
+- nginx
+- linux
 title: 【Nginx】安装 Nginx
 ---
 

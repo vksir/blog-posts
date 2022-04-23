@@ -24,9 +24,9 @@ ssh-copy-id <UESR>@<IP>
 ssh -L <LOCAL_IP>:<LOCAL_PORT>:<REMOTE_IP>:<REMOTE_> <UESR>@<IP>
 ```
 
-## 使用昵称登录
-
 <!-- more -->
+
+## 使用昵称登录
 
 可以为服务器起一个「昵称」，然后用它来登录。
 

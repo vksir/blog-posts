@@ -14,7 +14,7 @@ class Post:
     METADATE_UPDATED = 'updated'
 
     TEXT_MORE = '<!-- more -->'
-    TEXT_MORE_LINES = 16
+    TEXT_MORE_LINES = 8
 
     def __init__(self, path, filename, category, tags):
         self.path = path

@@ -5,8 +5,8 @@ comments: false
 date: 2022-04-23 18:18:50.281708
 id: manjaro
 tags:
-- linux
 - manjaro
+- linux
 title: 【Linux】安装 Manjaro 系统
 ---
 
@@ -21,13 +21,13 @@ title: 【Linux】安装 Manjaro 系统
 >
 > 环境：？
 
+<!-- more -->
+
 ## 制作启动盘
 
 使用官方推荐的刻录工具 [Rufus](https://rufus.ie/) 进行刻录。
 
 据说是要使用 `dd` 模式进行刻录，但是目前的 Rufus v3.9 并没有 `dd` 模式，或许要使用低版本的 Rufus，或许不需要（距离上次安装有点久，有点忘了，下次安装系统再修改）。
-
-<!-- more -->
 
 ## 安装
 

@@ -4,8 +4,8 @@ categories:
 date: 2020-03-06 22:58:30
 id: ffmpeg
 tags:
-- 视频处理
 - 优质工具
+- 视频处理
 title: 【优质工具】FFmpeg 视频处理
 ---
 

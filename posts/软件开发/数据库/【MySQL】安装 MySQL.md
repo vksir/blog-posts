@@ -4,10 +4,10 @@ categories:
 date: 2020-03-06 21:38:10
 id: mysql
 tags:
-- mysql
-- 软件开发
-- linux
 - 数据库
+- 软件开发
+- mysql
+- linux
 title: 【MySQL】安装 MySQL
 ---
 

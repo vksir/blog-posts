@@ -4,8 +4,8 @@ categories:
 date: 2020-03-06 21:43:39
 id: firewall
 tags:
-- linux
 - firewall
+- linux
 title: 【Linux】Firewall 防火墙
 ---
 
@@ -19,14 +19,14 @@ title: 【Linux】Firewall 防火墙
 
 这里我们禁用 iptables
 
+<!-- more -->
+
 ```bash
 systemctl stop iptables
 systemctl disable iptables
 ```
 
 ## 基本操作
-
-<!-- more -->
 
 ```bash
 # 启动

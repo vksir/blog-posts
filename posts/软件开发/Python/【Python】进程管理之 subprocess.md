@@ -4,8 +4,8 @@ categories:
 date: 2021-08-07 12:56:59
 id: subprocess
 tags:
-- python
 - 软件开发
+- python
 - shell
 - subprocess
 title: 【Python】进程管理之 subprocess
@@ -23,6 +23,8 @@ title: 【Python】进程管理之 subprocess
 - 标准输入 / 输出
 - 信号发送 / kill
 
+<!-- more -->
+
 其实也不多。
 
 ## 开始
@@ -35,8 +37,6 @@ proc = subprocess.Popen('ping 127.0.0.1', shell=True,
                         stdin=subprocess.PIPE)
 print(proc.stdout.read().decode('gbk'))	# 因为是 windows 系统，默认编码是 ‘gbk’
 ```
-
-<!-- more -->
 
 ```
 正在 Ping 127.0.0.1 具有 32 字节的数据:

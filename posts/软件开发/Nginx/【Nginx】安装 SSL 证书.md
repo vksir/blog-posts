@@ -4,10 +4,10 @@ categories:
 date: 2020-03-11 00:04:21
 id: ssl
 tags:
-- linux
-- nginx
-- 软件开发
 - ssl
+- nginx
+- linux
+- 软件开发
 title: 【Nginx】安装 SSL 证书
 ---
 
@@ -21,6 +21,8 @@ title: 【Nginx】安装 SSL 证书
 
 使用 Nginx + SSL 的组合，以 Certbot 为工具安装 SSL 证书。
 
+<!-- more -->
+
 ```bash
 # 安装 EPEL repo -> Only For CentOS 7
 yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rp
@@ -33,8 +35,6 @@ yum install certbot python2-certbot-nginx
 # 安装 SSL
 certbot --nginx
 ```
-
-<!-- more -->
 
 - 建议不要一次性给所有域名授权 SSL 证书，这样大家将会使用同一个证书，有的网站就会显示「证书与域名身份不对」。别着急，一个个授权。
 - 提示「是否 Redirect」建议选 `是`，这样 Certbot 将会帮你设置 Nginx，把「通往 `http / 80 端口` 的请求」重定向到「通往 `https / 443` 端口的请求」，还是非常有必要的。

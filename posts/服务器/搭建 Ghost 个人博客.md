@@ -5,8 +5,8 @@ date: 2020-03-06 22:14:19
 id: ghost
 tags:
 - ghost
-- 博客
 - 服务器
+- 博客
 title: 搭建 Ghost 个人博客
 ---
 
@@ -20,6 +20,8 @@ title: 搭建 Ghost 个人博客
 
 - [创建非 root 用户](https://www.vksir.zone/posts/linux_user/)，以下默认该用户名为 `ghostuser`
 
+<!-- more -->
+
 ## 安装 Ghost
 
 `Ghost-cli` 是专为 Ghost 开发的一款安装工具，它使得安装 Ghost 变得非常容易。
@@ -28,8 +30,6 @@ title: 搭建 Ghost 个人博客
 # 全局安装 Ghost-cli
 npm install ghost-cli@latest -g
 ```
-
-<!-- more -->
 
 选择一个目录作为 Ghost 的安装目录，个人建议将其放在 `/var/www` 中。
 
