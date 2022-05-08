@@ -12,6 +12,8 @@ title: 【Python】日志 logging
 
 记录 logging 简单用法。
 
+***constants.py***
+
 ```python
 #!/usr/bin/env python
 # coding=utf-8
@@ -25,13 +27,15 @@ class FilePath:
     LOG_PATH = f'{CFG_DIR}/log.txt'
 ```
 
+***log.py***
+
 ```python
 #!/usr/bin/env python
 # coding=utf-8
 
 import os
 import logging
-from dst_run.common.constants import FilePath
+from common.constants import FilePath
 
 log = logging.getLogger(__name__)
 formatter = logging.Formatter('[%(asctime)s] [%(levelname)s] [%(filename)s] [%(threadName)s] %(message)s')
