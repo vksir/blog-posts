@@ -23,8 +23,10 @@ class Post:
         self.tags = tags
 
         self.content = self._read()
-        self.metadata = None
-        self.text = None
+        self.metadata = ''
+        self.text = ''
+
+        self.metadata_id = ''
 
     def analyze(self):
         self._analyze_content()
@@ -60,6 +62,7 @@ class Post:
         data.setdefault(self.METADATE_DATE, datetime.datetime.now())
 
         self.metadata = yaml.dump(data, allow_unicode=True)
+        self.metadata_id = data[self.METADATA_ID]
 
     def _complete_text_more(self):
         self.text = re.sub(r'\n%s\n' % self.TEXT_MORE, '', self.text)
@@ -138,6 +141,17 @@ def main():
         post.analyze()
         post.complete()
         post.save()
+
+    raw_metadata_ids = [post.metadata_id for post in posts]
+    metadata_ids = set(raw_metadata_ids)
+    if len(metadata_ids) != len(raw_metadata_ids):
+        duplicate_ids = {}
+        for medata_id in raw_metadata_ids:
+            count = raw_metadata_ids.count(medata_id)
+            if raw_metadata_ids.count(medata_id) > 1:
+                duplicate_ids[medata_id] = count
+        raise Exception(f'duplicate id: {len(metadata_ids)} != {len(raw_metadata_ids)}\n'
+                        f'{json.dumps(duplicate_ids, indent=4)}')
 
 
 if __name__ == '__main__':
