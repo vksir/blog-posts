@@ -2,7 +2,7 @@
 categories:
 - 服务器
 date: 2022-05-08 11:35:26.141785
-id: ssl2
+id: ssl-2
 tags:
 - 服务器
 title: 安装 SSL 证书
@@ -27,3 +27,4 @@ acme.sh --install-cert -d joking.vksir.zone --ecc \
         --fullchain-file /usr/local/etc/xray/xray.crt \
         --key-file /usr/local/etc/xray/xray.key
 chmod +r /usr/local/etc/xray/xray.key
+```
