@@ -10,6 +10,8 @@ tags:
 title: 【Python】日志 logging
 ---
 
+记录 logging 简单用法。
+
 ```python
 #!/usr/bin/env python
 # coding=utf-8

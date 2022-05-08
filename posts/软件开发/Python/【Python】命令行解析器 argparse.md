@@ -10,6 +10,8 @@ tags:
 title: 【Python】命令行解析器 argparse
 ---
 
+记录 argparse 简单用法。
+
 ```python
 #!/usr/bin/env python
 # coding=utf-8
