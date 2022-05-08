@@ -4,11 +4,11 @@ categories:
 date: 2022-05-08 14:05:18.734259
 id: hexo-3
 tags:
+- ci/cd
+- hexo
 - 服务器
-title: 【Hexo】CICD——持续集成&持续部署
+title: 【Hexo】CI/CD——持续集成&持续部署
 ---
-
-# 【Hexo】CI/CD——持续集成&持续部署
 
 这里不讲 CI/CD 的概念，我们想要做到的，就是自动化编译、部署博客，把注意力都集中在写作上。
 
@@ -18,11 +18,11 @@ title: 【Hexo】CICD——持续集成&持续部署
 
 我们可以借助 CI/CD 工具，完成环境搭建、编译、部署等一系列工作，真正做到一键上传博客。
 
-<!-- more -->
-
 > 说到这里，我想到了 WordPress。
 >
 > WordPress 很容易就可以做到一键上传博客，完全不用搞什么 CI/CD。
+
+<!-- more -->
 
 免费的 CI/CD 工具不少，这里我选择了 Gihub Action。博客文章都是存储在 Github 库中，用 Gihub Action 也比较方便。
 

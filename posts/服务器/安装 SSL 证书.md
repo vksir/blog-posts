@@ -4,6 +4,7 @@ categories:
 date: 2022-05-08 11:35:26.141785
 id: ssl-2
 tags:
+- ssl
 - 服务器
 title: 安装 SSL 证书
 ---
