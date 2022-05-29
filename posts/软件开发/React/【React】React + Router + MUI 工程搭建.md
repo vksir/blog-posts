@@ -2,18 +2,16 @@
 categories:
 - 软件开发
 date: 2022-05-29 17:54:51.029764
-id: 'react'
+id: react
 tags:
-- react
-- 软件开发
-- react router
-- material ui
 - axios
+- material ui
+- react
+- react router
 - 跨域
-title: React + Router + MUI 工程搭建
+- 软件开发
+title: 【React】React + Router + MUI 工程搭建
 ---
-
-# React + Router + MUI 工程搭建
 
 ## 初始化
 
@@ -23,9 +21,9 @@ title: React + Router + MUI 工程搭建
 npx create-react-app my-app
 ```
 
-<!-- more -->
-
 ### 安装 MUI
+
+<!-- more -->
 
 在工程路径下执行：
 
