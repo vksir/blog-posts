@@ -27,6 +27,8 @@ class FilePath:
     LOG_PATH = f'{CFG_DIR}/log.txt'
 ```
 
+<!-- more -->
+
 ***log.py***
 
 ```python
