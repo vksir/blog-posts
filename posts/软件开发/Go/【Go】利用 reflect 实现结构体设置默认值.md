@@ -5,9 +5,9 @@ date: 2022-06-04 20:14:35.645296
 id: go_struct_default
 tags:
 - go
-- 软件开发
-- struct
 - reflect
+- struct
+- 软件开发
 title: 【Go】利用 reflect 实现结构体设置默认值
 ---
 
