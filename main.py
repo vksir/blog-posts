@@ -32,7 +32,7 @@ class Post:
         self._analyze_content()
 
     def _analyze_content(self):
-        res = re.search(r'---(.*?)---(.*)', self.content, re.S)
+        res = re.search(r'^---(.*?)---(.*)', self.content, re.S)
         if not res:
             self.metadata = '{}'
             self.text = self.content.strip('\n')
