@@ -252,3 +252,7 @@ module.exports = {
 此处获取后端程序路径的方式 `const server_path = path.join(path.dirname(__dirname), 'server', 'dist', 'server.exe')` 在打包前后皆可使用，若打包前后路径有所差异，则需额外做特殊处理。
 
 ## 后记
+
+> Git 链接：https://github.com/vksir/electron-vue-example
+
+我想，偶尔还是会写一写桌面程序，遇到什么想要的工具，就自己写一个。使用这个库，能节约一些时间。毕竟，时间长了，忘得超快。
