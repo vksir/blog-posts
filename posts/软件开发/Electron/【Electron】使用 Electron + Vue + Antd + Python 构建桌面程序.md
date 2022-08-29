@@ -12,8 +12,6 @@ tags:
 title: 【Electron】使用 Electron + Vue + Antd + Python 构建桌面程序
 ---
 
-# 【Electron】使用 Electron + Vue + Antd + Python 构建桌面程序
-
 ## 写在前面
 
 也算是个记录吧，以免以后想写桌面程序又要走一遍弯路。这玩意不难，只是也有些坑，会耗些时间。
@@ -22,9 +20,9 @@ title: 【Electron】使用 Electron + Vue + Antd + Python 构建桌面程序
 
 ## 搭建前端
 
-<!-- more -->
-
 ### 创建 vue 项目
+
+<!-- more -->
 
 ```shell
 yarn global add @vue/cli
