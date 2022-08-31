@@ -12,11 +12,12 @@ title: 【Shell】标准的 Shell 脚本
 记录一下 shell 脚本模板。
 
 ```shell
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
 args_num=$#
 action="${1}"
-allowed_action_args=("set" "unset" "test")
+
+ALLOWED_ACTION_ARGS=("set" "unset" "test")
 
 
 function print_ok() {
@@ -49,8 +50,8 @@ function check_args_num() {
 }
 
 function check_action_arg() {
-    if ! contain "${allowed_action_args[*]}" "${action}"; then
-        echo "Action arg must be [ set || unset || test ]"
+    if ! contain "${ALLOWED_ACTION_ARGS[*]}" "${action}"; then
+        print_err "Action arg must be [ set || unset || test ]"
         return 1
     fi
 }
@@ -88,6 +89,8 @@ elif [ "${action}" == "unset" ]; then
 elif [ "${action}" == "test" ]; then
     test_proxy
 fi
+
+return $?
 ```
 
 <!-- more -->

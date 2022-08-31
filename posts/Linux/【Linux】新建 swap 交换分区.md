@@ -23,4 +23,7 @@ echo "/var/swap swap swap defaults 0 0" >> /etc/fstab
 
 # 查看交换分区是否生效
 free -m
+
+# 关闭交换分区
+swapoff -a
 ```

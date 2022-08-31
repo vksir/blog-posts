@@ -6,8 +6,11 @@ id: systemctl
 tags:
 - linux
 - systemctl
-title: 【Linux】新建 systemctl 守护进程
+- fastapi
+title: 【Linux】利用 systemctl 部署服务
 ---
+
+## 部署简单进程
 
 编辑文件 `/etc/systemd/system/supernode.service` 如下：
 
@@ -37,3 +40,26 @@ systemctl enable supernode
 ```
 
 > 参考文档：https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html
+
+## 部署 FastAPI
+
+```
+[Unit]
+Description=DST Run
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=steam
+Group=steam
+WorkingDirectory=/etc/dst_run
+ExecStart=gunicorn dst_run.app.app:app -w 1 -k uvicorn.workers.UvicornWorker --bind 127.0.0.1:5800
+Restart=on-failure
+KillMode=mixed
+TimeoutStopSec=5
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+```
