@@ -5,6 +5,7 @@ date: 2022-09-01 00:09:58.293528
 id: systemctl
 tags:
 - linux
+- systemctl
 title: 【Linux】新建 systemctl 守护进程
 ---
 

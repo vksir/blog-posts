@@ -5,6 +5,7 @@ date: 2022-09-01 00:09:58.292528
 id: swap
 tags:
 - linux
+- swap
 title: 【Linux】新建 swap 交换分区
 ---
 
