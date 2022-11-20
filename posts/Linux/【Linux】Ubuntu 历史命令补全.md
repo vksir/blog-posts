@@ -8,8 +8,6 @@ tags:
 title: 【Linux】Ubuntu 历史命令补全
 ---
 
-# 【Linux】Ubuntu 历史命令补全
-
 ## 前言
 
 RetHat 系列 Linux 发行版，如 Centos 7，自带历史命令补全。
