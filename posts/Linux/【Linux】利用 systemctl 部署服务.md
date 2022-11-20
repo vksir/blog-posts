@@ -4,9 +4,9 @@ categories:
 date: 2022-09-01 00:09:58.293528
 id: systemctl
 tags:
+- fastapi
 - linux
 - systemctl
-- fastapi
 title: 【Linux】利用 systemctl 部署服务
 ---
 
