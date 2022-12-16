@@ -12,53 +12,34 @@ title: 【Python】日志 logging
 
 记录 logging 简单用法。
 
-***constants.py***
-
 ```python
 #!/usr/bin/env python
 # coding=utf-8
 
-import os
-import platform
-
-class FilePath:
-    HOME = os.environ['HOME'] if platform.system() == 'Linux' else os.environ['USERPROFILE']
-    CFG_DIR = f'{HOME}/.cfg'
-    LOG_PATH = f'{CFG_DIR}/log.txt'
-```
-
-<!-- more -->
-
-***log.py***
-
-```python
-#!/usr/bin/env python
-# coding=utf-8
-
-import os
+import time
 import logging
-from common.constants import FilePath
 
-log = logging.getLogger(__name__)
-formatter = logging.Formatter('[%(asctime)s] [%(levelname)s] [%(filename)s] [%(threadName)s] %(message)s')
-log.setLevel(logging.DEBUG)
 
-def init_path():
-    for path_name, path in FilePath.__dict__.items():
-        if not path_name.endswith('DIR') or os.path.exists(path):
-            continue
-        os.system(f'mkdir -p {path}')
+LOG_PATH = f'./{time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime())}.log'
+LOG = logging.getLogger(__name__)
+formatter = logging.Formatter('[%(asctime)s][%(levelname)s][%(filename)s:%(lineno)d][%(threadName)s][%(funcName)s] %(message)s')
+LOG.setLevel(logging.DEBUG)
+
 
 def init_log():
     sh = logging.StreamHandler()
     sh.setFormatter(formatter)
     sh.setLevel(logging.DEBUG)
-    fh = logging.FileHandler(FilePath.LOG_PATH, 'w', encoding='utf-8')
+    fh = logging.FileHandler(LOG_PATH, 'w', encoding='utf-8')
     fh.setFormatter(formatter)
     fh.setLevel(logging.DEBUG)
-    log.addHandler(sh)
-    log.addHandler(fh)
+    LOG.addHandler(sh)
+    LOG.addHandler(fh)
 
-init_path()
+
 init_log()
 ```
+
+<!-- more -->
+
+更多 `Formatter` 格式配置见 [logging --- Python 的日志记录工具 — Python 3.11.1 文档](https://docs.python.org/zh-cn/3/library/logging.html?highlight=logging formatter#logging.LogRecord)。
