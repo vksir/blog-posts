@@ -9,8 +9,6 @@ tags:
 title: 【Postgresql】Postgresql 常用命令
 ---
 
-# 【Postgresql】Postgresql 常用命令
-
 ## 创建用户和数据库
 
 ```shell
