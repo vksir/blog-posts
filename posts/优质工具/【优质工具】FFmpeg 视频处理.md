@@ -111,6 +111,24 @@ ffmpeg -i name.mp4 -s 1280x720 -b:v 1024k -preset veryslow -c:v libx265 -f mp4 o
 ffmpeg -i name.mp4 output.flv -y
 ```
 
+### 编码格式转换
+
+```shell
+# 查看支持的编码格式
+ffmpeg -codecs
+
+# av1 转 h264
+ffmpeg -c:v av1_cuvid -i input.mp4 -crf 18 -c:v libx264 output.mp4 -y
+```
+
+其中，解码器用的 N 卡的解码器 `av1_cuvid`，编码器用 CPU 编码 `libx264`。
+### 视频截取
+
+```shell
+# 从 20:40 开始，截取 15s
+ffmpeg -ss 20:40 -t 15 -i input.mp4 -c:v copy output.mp4 -y
+```
+
 ### 音视频提取
 
 ```bash
