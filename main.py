@@ -8,10 +8,10 @@ import yaml
 class Post:
     METADATA_TITLE = 'title'
     METADATA_ID = 'id'
-    METADATE_CATEGORIES = 'categories'
-    METADATE_TAGS = 'tags'
-    METADATE_DATE = 'date'
-    METADATE_UPDATED = 'updated'
+    METADATA_CATEGORIES = 'categories'
+    METADATA_TAGS = 'tags'
+    METADATA_DATE = 'date'
+    METADATA_UPDATED = 'updated'
 
     TEXT_MORE = '<!-- more -->'
     TEXT_MORE_LINES = 8
@@ -43,7 +43,9 @@ class Post:
 
     def complete(self):
         self._complete_metadata()
-        self._complete_text_more()
+
+        # 使用 hugo，不再需要 more 分割文章了
+        # self._complete_text_more()
 
     def _complete_metadata(self):
         data = yaml.load(self.metadata, yaml.Loader)
@@ -53,13 +55,17 @@ class Post:
         # url
         data.setdefault(self.METADATA_ID, '')
         # category
-        data[self.METADATE_CATEGORIES] = [self.category]
+        data[self.METADATA_CATEGORIES] = [self.category]
         # tags
-        tags = data.get(self.METADATE_TAGS, [])
-        data[self.METADATE_TAGS] = list(set(tag.lower() for tag in set(tags + self.tags)))
-        data[self.METADATE_TAGS].sort()
+        tags = data.get(self.METADATA_TAGS, [])
+        data[self.METADATA_TAGS] = list(set(tag.lower() for tag in set(tags + self.tags)))
+        data[self.METADATA_TAGS].sort()
         # date
-        data.setdefault(self.METADATE_DATE, datetime.datetime.now())
+        data.setdefault(self.METADATA_DATE, datetime.datetime.now())
+
+        # hexo 使用 id 字段作为 url
+        # hugo 使用 url 字段
+        data['url'] = data['id']
 
         self.metadata = yaml.dump(data, allow_unicode=True)
         self.metadata_id = data[self.METADATA_ID]
@@ -110,7 +116,7 @@ class Post:
 
 class FileLib:
     REPO_DIR = os.path.dirname(__file__)
-    POSTS_DIRNAME = 'posts'
+    POSTS_DIRNAME = 'content/posts'
     POSTS_DIR = os.path.join(REPO_DIR, POSTS_DIRNAME)
 
     @classmethod
@@ -141,6 +147,11 @@ def main():
         post.analyze()
         post.complete()
         post.save()
+
+    # 检查是否有文章 id 为空
+    for post in posts:
+        if post.metadata_id == '':
+            raise Exception(f'empty post id: {post}')
 
     raw_metadata_ids = [post.metadata_id for post in posts]
     metadata_ids = set(raw_metadata_ids)

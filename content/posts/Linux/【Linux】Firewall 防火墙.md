@@ -68,4 +68,4 @@ systemctl restart firewalld
 
 其实不用看，直接「快速创建规则」按着来就行了。
 
-![安全组](https://gallery.vksir.zone/images/2020/03/05/QQ20200305005754.jpg)
+![安全组](https://static.vksir.zone/img/QQ20200305005754.jpg)

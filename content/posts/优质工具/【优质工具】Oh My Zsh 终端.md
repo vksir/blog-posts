@@ -9,7 +9,7 @@ tags:
 title: 【优质工具】Oh My Zsh 终端
 ---
 
-![ys](https://gallery.vksir.zone/images/2020/03/05/-ys.png)
+![ys](https://static.vksir.zone/img/-ys.png)
 
 > 一款极其好用的终端工具，简单易上手。
 >
@@ -43,7 +43,7 @@ ls ~/.oh-my-zsh/themes
 
 太多了，我选 `ys`。
 
-![ys](https://gallery.vksir.zone/images/2020/03/05/-ys.png)
+![ys](https://static.vksir.zone/img/-ys.png)
 
 ```bash
 vim ~/.zshrc
@@ -55,7 +55,7 @@ source ~/.zshrc
 
 [pure](https://github.com/sindresorhus/pure) 其实也不错，但是它没有被集成到 `Oh My Zsh` 中，需要额外安装。
 
-![pure](https://gallery.vksir.zone/images/2020/03/05/-pure.png)
+![pure](https://static.vksir.zone/img/-pure.png)
 
 ```bash
 # 下载

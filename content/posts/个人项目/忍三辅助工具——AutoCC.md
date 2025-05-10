@@ -12,7 +12,7 @@ title: 忍三辅助工具——AutoCC
 > 一款美观、高效、功能强大的《忍者必须死 3》辅助工具。
 
 <p style="width: 60%;margin: auto;">
-  <img src="https://gallery.vksir.zone/images/2020/05/03/AutoCC-10.png" alt="AutoCC">
+  <img src="https://static.vksir.zone/img/AutoCC-10.png" alt="AutoCC">
 </p>
 
 ## 特性
@@ -50,14 +50,14 @@ title: 忍三辅助工具——AutoCC
 		</style>
 		<div class="mImg">
             <h3>最新版</h3>
-			<img src="https://gallery.vksir.zone/images/2020/05/03/AutoCC-10-1.png" alt="" />
-			<img src="https://gallery.vksir.zone/images/2020/05/03/AutoCC-10-2.png" alt="" />
-			<img src="https://gallery.vksir.zone/images/2020/05/03/AutoCC-10-3.png" alt="" />
-			<img src="https://gallery.vksir.zone/images/2020/05/03/AutoCC-10-4.png" alt="" />
-			<img src="https://gallery.vksir.zone/images/2020/05/03/AutoCC-10-5.png" alt="" />
-            <img src="https://gallery.vksir.zone/images/2020/05/03/AutoCC-10-6.png" alt="" />
+			<img src="https://static.vksir.zone/img/AutoCC-10-1.png" alt="" />
+			<img src="https://static.vksir.zone/img/AutoCC-10-2.png" alt="" />
+			<img src="https://static.vksir.zone/img/AutoCC-10-3.png" alt="" />
+			<img src="https://static.vksir.zone/img/AutoCC-10-4.png" alt="" />
+			<img src="https://static.vksir.zone/img/AutoCC-10-5.png" alt="" />
+            <img src="https://static.vksir.zone/img/AutoCC-10-6.png" alt="" />
             <h3>简易版</h3>
-			<img src="https://gallery.vksir.zone/images/2020/05/03/AutoCC-6.png" alt="" />
+			<img src="https://static.vksir.zone/img/AutoCC-6.png" alt="" />
 		</div>
 ​	</body>
 </html>

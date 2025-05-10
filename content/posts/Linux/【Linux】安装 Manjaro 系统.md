@@ -44,7 +44,7 @@ title: 【Linux】安装 Manjaro 系统
 
 然后 `Boot` 即可。
 
-![安装1](https://gallery.vksir.zone/images/2020/03/11/Snipaste_2020-03-11_15-53-19.png)
+![安装1](https://static.vksir.zone/img/Snipaste_2020-03-11_15-53-19.png)
 
 ## 配置
 

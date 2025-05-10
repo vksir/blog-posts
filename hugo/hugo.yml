@@ -1,0 +1,180 @@
+baseURL: https://www.vksir.zone/
+languageCode: zh-cn
+title: 人间白玉楼
+pagination:
+  pagerSize: 10
+theme: PaperMod
+contentDir: ../content
+copyright: "© 2025 人间白玉楼 · [鄂ICP备20002696号-1](https://beian.miit.gov.cn/)"
+
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: 人间白玉楼
+  description: "Vksir's blog | 行你所想"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Vksir
+  # author: ["Me", "You"] # multiple authors
+  images: ["https://static.vksir.zone/img/vksir.jpg"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/favicon-32x32.png"
+
+
+  label:
+    text: "人间白玉楼"
+#    icon: /apple-touch-icon.png
+    icon: /V.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: Vksir
+    subtitle: "Vksir's blog | 行你所想"
+    imageUrl: "https://static.vksir.zone/img/vksir.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: Vksir
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+      - name: About
+        url: about
+
+  # home-info mode
+  homeInfoParams:
+    Title: "
+      <div style=\"text-align: center;\">
+        <img 
+            draggable=\"false\" 
+            src=\"https://static.vksir.zone/img/vksir.jpg\" 
+            alt=\"Vksir\" 
+            title=\"Vksir\" 
+            height=\"120\" 
+            width=\"120\" 
+            style=\"border-radius: 50%;display: inline\"
+        >
+      </div>
+      人间白玉楼"
+    Content: "Vksir's blog | 行你所想"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/vksir/"
+    - name: bilibili
+      url: "https://space.bilibili.com/1390782168"
+    - name: email
+      url: "v.kzhang@qq.com"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/vksir/blog-posts/blob/master/posts/"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - name: 搜索
+      url: search/
+      weight: 1
+    - name: 归档
+      url: archives/
+      weight: 2
+    - name: 分类
+      url: categories/
+      weight: 3
+    - name: 标签
+      url: tags/
+      weight: 4
+    - name: 友链
+      url: friends/
+      weight: 5
+    - name: 关于
+      url: about/
+      weight: 6
+
+#    - identifier: example
+#      name: example.org
+#      url: https://example.org
+#      weight: 30
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
