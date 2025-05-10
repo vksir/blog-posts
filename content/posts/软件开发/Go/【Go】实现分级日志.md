@@ -8,6 +8,7 @@ tags:
 - log
 - 软件开发
 title: 【Go】实现分级日志
+url: posts/go_log
 ---
 
 话不多说直接上代码：

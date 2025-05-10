@@ -7,6 +7,7 @@ tags:
 - go
 - 软件开发
 title: 【Go】使用 logrus 日志库
+url: posts/logrus
 ---
 
 相比起 zap 日志库，logrus 性能会低一些，但在很多场景，并不需要太高性能，而 logrus 库的自定义能力较为强大，可以任意定义日志格式，较为方便。

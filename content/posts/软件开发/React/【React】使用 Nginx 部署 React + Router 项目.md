@@ -10,6 +10,7 @@ tags:
 - react router
 - 软件开发
 title: 【React】使用 Nginx 部署 React + Router 项目
+url: posts/react_deploy
 ---
 
 # 【React】使用 Nginx 部署 React + Router 项目

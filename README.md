@@ -1,3 +1,7 @@
-# blog-posts
+# Vksir's Blog
 
-vksir's blog posts
+## Build
+
+```
+hugo server -D
+```

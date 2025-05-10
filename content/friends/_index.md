@@ -10,7 +10,7 @@ date: 2020-03-09 22:44:54
 			.card {
                 display:inline-block;
 				width: 115px;
-				box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);
+				box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12) !important;
 				overflow: hidden;
 				transition: 0.15s ease-in-out;
 				border-radius: 8px;

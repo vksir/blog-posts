@@ -8,6 +8,7 @@ tags:
 - linux
 - systemctl
 title: 【Linux】利用 systemctl 部署服务
+url: posts/systemctl
 ---
 
 ## 部署简单进程

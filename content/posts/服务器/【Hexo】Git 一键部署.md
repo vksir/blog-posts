@@ -8,6 +8,7 @@ tags:
 - 博客
 - 服务器
 title: 【Hexo】Git 一键部署
+url: posts/hexo-2
 ---
 
 > 这里要说的是部署到自己的服务器哦~其实呢，主要是有关 Git 的使用吧。

@@ -7,6 +7,7 @@ tags:
 - aria2
 - 服务器
 title: 搭建 Aria2 离线下载
+url: posts/aria2
 ---
 
 > 环境：CentOS 7

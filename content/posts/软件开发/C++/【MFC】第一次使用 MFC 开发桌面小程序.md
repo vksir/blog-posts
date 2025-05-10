@@ -8,6 +8,7 @@ tags:
 - mfc
 - 软件开发
 title: 【MFC】第一次使用 MFC 开发桌面小程序
+url: posts/mfc
 ---
 
 # 闲话

@@ -63,9 +63,9 @@ class Post:
         # date
         data.setdefault(self.METADATA_DATE, datetime.datetime.now())
 
-        # hexo 使用 id 字段作为 url
-        # hugo 使用 url 字段
-        data['url'] = data['id']
+        # hexo 使用 id 字段作为 url，且 id 前固定跟前缀 posts，形如 https://xxx.xxx.xx/posts/onmyzsh
+        # hugo 使用 url 字段，无前缀
+        data['url'] = f"posts/{data['id']}"
 
         self.metadata = yaml.dump(data, allow_unicode=True)
         self.metadata_id = data[self.METADATA_ID]
@@ -116,8 +116,8 @@ class Post:
 
 class FileLib:
     REPO_DIR = os.path.dirname(__file__)
-    POSTS_DIRNAME = 'content/posts'
-    POSTS_DIR = os.path.join(REPO_DIR, POSTS_DIRNAME)
+    POSTS_DIRNAME = 'posts'
+    POSTS_DIR = os.path.join(REPO_DIR, 'content', 'posts')
 
     @classmethod
     def _get_tags(cls, dirpath):

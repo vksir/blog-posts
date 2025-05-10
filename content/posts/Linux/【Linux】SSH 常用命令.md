@@ -7,6 +7,7 @@ tags:
 - linux
 - ssh
 title: 【Linux】SSH 常用命令
+url: posts/ssh
 ---
 
 ## 常用命令

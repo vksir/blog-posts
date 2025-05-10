@@ -7,6 +7,7 @@ tags:
 - go
 - 软件开发
 title: 【Go】Gin 自定义参数校验和错误信息
+url: posts/go_gin_validate
 ---
 
 Gin 使用 validator 库做数据校验，如下可以实现自定义校验、及自定义校验错误信息。

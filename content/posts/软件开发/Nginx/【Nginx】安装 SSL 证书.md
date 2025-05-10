@@ -9,6 +9,7 @@ tags:
 - ssl
 - 软件开发
 title: 【Nginx】安装 SSL 证书
+url: posts/ssl
 ---
 
 > 现在这个时代，SSL 已成了常态，没有 SSL 的网页浏览器都不让看，这里我们使用`let’s encrypt` 来获取「免费 SSL 证书」。

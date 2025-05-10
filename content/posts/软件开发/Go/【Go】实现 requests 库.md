@@ -7,6 +7,7 @@ tags:
 - go
 - 软件开发
 title: 【Go】实现 requests 库
+url: posts/go_requests
 ---
 
 粗略实现了一下 requests 库。但后来想想，也必要自己造轮子，还是 [resty](https://github.com/go-resty/resty) 香！

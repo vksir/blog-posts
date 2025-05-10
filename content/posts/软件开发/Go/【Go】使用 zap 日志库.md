@@ -7,6 +7,7 @@ tags:
 - go
 - 软件开发
 title: 【Go】使用 zap 日志库
+url: posts/go_zap
 ---
 
 ## 代码

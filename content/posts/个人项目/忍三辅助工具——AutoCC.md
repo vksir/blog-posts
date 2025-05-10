@@ -7,6 +7,7 @@ mathjax: true
 tags:
 - 个人项目
 title: 忍三辅助工具——AutoCC
+url: posts/autocc
 ---
 
 > 一款美观、高效、功能强大的《忍者必须死 3》辅助工具。

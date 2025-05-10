@@ -7,6 +7,7 @@ tags:
 - linux
 - selenium
 title: 【Linux】无界面使用 Selenium
+url: posts/selenium
 ---
 
 > 环境：CentOS 7，无界面

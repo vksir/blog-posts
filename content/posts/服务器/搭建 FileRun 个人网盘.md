@@ -8,6 +8,7 @@ tags:
 - 服务器
 - 网盘
 title: 搭建 FileRun 个人网盘
+url: posts/filerun
 ---
 
 > FileRun——一款简洁、漂亮且功能强大的个人网盘。

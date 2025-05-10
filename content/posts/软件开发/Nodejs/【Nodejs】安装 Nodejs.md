@@ -8,6 +8,7 @@ tags:
 - nodejs
 - 软件开发
 title: 【Nodejs】安装 Nodejs
+url: posts/nodejs
 ---
 
 ## 安装 nvm

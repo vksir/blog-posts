@@ -8,6 +8,7 @@ tags:
 - python
 - 软件开发
 title: 【Python】Float 运算精度
+url: posts/float
 ---
 
 如果有一天，有人告诉你三个 0.1 加起来不等于 0.3 你会不会觉得很惊讶？但事实如此：

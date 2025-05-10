@@ -10,6 +10,7 @@ tags:
 - vue
 - 软件开发
 title: 【Electron】使用 Electron + Vue + Antd + Python 构建桌面程序
+url: posts/electron-vue-antd-python
 ---
 
 ## 写在前面

@@ -7,6 +7,7 @@ tags:
 - c++
 - 软件开发
 title: 【C++】Windows 下使用 Cmake 编译附带第三方库的 C++ 程序
+url: posts/windows_cmake
 ---
 
 ## C++ 环境搭建

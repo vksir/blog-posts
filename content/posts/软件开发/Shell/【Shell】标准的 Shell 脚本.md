@@ -7,6 +7,7 @@ tags:
 - shell
 - 软件开发
 title: 【Shell】标准的 Shell 脚本
+url: posts/shell
 ---
 
 记录一下 shell 脚本模板。

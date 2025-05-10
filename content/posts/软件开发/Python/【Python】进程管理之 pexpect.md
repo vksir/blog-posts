@@ -9,6 +9,7 @@ tags:
 - shell
 - 软件开发
 title: 【Python】进程管理之 pexpect
+url: posts/pexpect
 ---
 
 > 相对有名的可用于自动化应用程序交互的模块，可用于 ssh、ftp 等程序。

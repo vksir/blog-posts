@@ -6,6 +6,7 @@ id: linux_user
 tags:
 - linux
 title: 【Linux】用户 & 权限
+url: posts/linux_user
 ---
 
 ## 用户管理

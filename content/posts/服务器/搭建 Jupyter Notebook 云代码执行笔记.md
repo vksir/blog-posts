@@ -8,6 +8,7 @@ tags:
 - 云笔记
 - 服务器
 title: 搭建 Jupyter Notebook 云代码执行笔记
+url: posts/jupyter-notebook
 ---
 
 > Jupyter Notebook——我实在想不好该用什么来形容它，百科的介绍是「交互式笔记」，或许交互式确是它的特点，但我感觉最大的特点还是它是个 Web 应用，能「云」，且能「执行代码」，支持 40+ 语言。

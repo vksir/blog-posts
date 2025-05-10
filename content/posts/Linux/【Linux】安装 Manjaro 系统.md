@@ -8,6 +8,7 @@ tags:
 - linux
 - manjaro
 title: 【Linux】安装 Manjaro 系统
+url: posts/manjaro
 ---
 
 > Manjaro 还是好啊（或者说，Arch linux 还是好）。

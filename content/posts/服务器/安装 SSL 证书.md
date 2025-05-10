@@ -7,6 +7,7 @@ tags:
 - ssl
 - 服务器
 title: 安装 SSL 证书
+url: posts/ssl-2
 ---
 
 ```sh

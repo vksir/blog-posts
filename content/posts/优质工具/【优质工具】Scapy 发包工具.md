@@ -6,6 +6,7 @@ id: scapy
 tags:
 - 优质工具
 title: 【优质工具】Scapy 发包工具
+url: posts/scapy
 ---
 
 Python 的 [scapy](https://scapy.net/) 库是一个非常优秀的发包工具，可以灵活构造各种报文。

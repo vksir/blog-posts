@@ -7,6 +7,7 @@ tags:
 - firewall
 - linux
 title: 【Linux】Firewall 防火墙
+url: posts/firewall
 ---
 
 > 个人电脑倒没什么，如国内，很少有个人电脑有公网 IP 的。但服务器不同，24 小时运行 + 公网 IP + 诸多网站、数据库等信息，防火墙还是要开一个的。

@@ -7,6 +7,7 @@ tags:
 - 数据库
 - 软件开发
 title: 【Postgresql】Postgresql 常用命令
+url: posts/postgresql_cmd
 ---
 
 ## 创建用户和数据库

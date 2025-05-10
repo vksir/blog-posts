@@ -8,6 +8,7 @@ tags:
 - 博客
 - 服务器
 title: 【Hexo】NexT 进阶配置
+url: posts/hexo-1
 ---
 
 > Hexo——一款纯静态、基于 Nodejs 的博客系统。

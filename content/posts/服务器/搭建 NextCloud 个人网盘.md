@@ -8,6 +8,7 @@ tags:
 - 服务器
 - 网盘
 title: 搭建 NextCloud 个人网盘
+url: posts/nextcloud
 ---
 
 > NextCloud——一款优秀的，非常受欢迎的个人网盘。

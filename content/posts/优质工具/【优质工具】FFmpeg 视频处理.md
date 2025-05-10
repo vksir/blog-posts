@@ -7,6 +7,7 @@ tags:
 - 优质工具
 - 视频处理
 title: 【优质工具】FFmpeg 视频处理
+url: posts/ffmpeg
 ---
 
 > FFmpeg——一款极其优秀的视频处理工具

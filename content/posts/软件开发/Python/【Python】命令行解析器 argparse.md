@@ -8,6 +8,7 @@ tags:
 - python
 - 软件开发
 title: 【Python】命令行解析器 argparse
+url: posts/argparse
 ---
 
 记录 argparse 简单用法。

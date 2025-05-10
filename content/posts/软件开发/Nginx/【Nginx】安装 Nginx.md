@@ -8,6 +8,7 @@ tags:
 - nginx
 - 软件开发
 title: 【Nginx】安装 Nginx
+url: posts/nginx
 ---
 
 > 主要内容：安装 & 配置文件介绍 & 静态网页 & 伪静态 & 加载 php-fpm

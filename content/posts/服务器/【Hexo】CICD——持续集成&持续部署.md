@@ -8,6 +8,7 @@ tags:
 - hexo
 - 服务器
 title: 【Hexo】CI/CD——持续集成&持续部署
+url: posts/hexo-3
 ---
 
 这里不讲 CI/CD 的概念，我们想要做到的，就是自动化编译、部署博客，把注意力都集中在写作上。

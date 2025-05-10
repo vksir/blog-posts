@@ -6,6 +6,7 @@ id: clion_cygwin
 tags:
 - 优质工具
 title: 【开发技巧】为 Clion 配置 Cygwin Terminal
+url: posts/clion_cygwin
 ---
 
 习惯了使用 Unix 风格的终端，过去在 Windows 上，一直给 Clion 配置 Git Bash 作为终端：

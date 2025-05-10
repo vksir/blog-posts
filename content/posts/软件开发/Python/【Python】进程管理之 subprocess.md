@@ -9,6 +9,7 @@ tags:
 - subprocess
 - 软件开发
 title: 【Python】进程管理之 subprocess
+url: posts/subprocess
 ---
 
 > 非常强大的子进程管理模块，你想要的它都有。

@@ -1,6 +1,4 @@
-# hexo-CI by vksir
-
-name: hexo-CI
+name: Hugo CI
 
 on:
   push:
@@ -10,70 +8,28 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout hexo-blog
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
-          repository: vksir/hexo-blog
-          path: hexo-blog
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: checkout hexo-theme-next
-        uses: actions/checkout@v2
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
-          repository: vksir/hexo-theme-next
-          path: hexo-theme-next
+          hugo-version: '0.147.2'
+          extended: true
 
-      - name: checkout blog-posts
-        uses: actions/checkout@v2
+      - name: Build
+        run: |
+          pwd
+          ls -l
+          cd ./hugo
+          hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          repository: vksir/blog-posts
-          path: blog-posts
-
-      - name: nodejs install
-        uses: actions/setup-node@v2
-        with:
-          node-version: '16'
-
-      - name: set deploy private key
-        env:
-          PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-        run: |
-          mkdir -p ~/.ssh/
-          echo "$PRIVATE_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan 120.55.68.91 >> ~/.ssh/known_hosts
-
-      - name: set git config
-        run: |
-          git config --global user.name 'vksir'
-          git config --global user.email 'v.kzhang@qq.com'
-
-      - name: organize repos
-        run: |
-          mkdir -p ~/hexo-blog
-          mv hexo-blog ~/
-          mkdir -p ~/hexo-blog/themes/hexo-theme-next
-          mv hexo-theme-next ~/hexo-blog/themes/
-          mkdir -p ~/hexo-blog/source/_posts/posts
-          mv blog-posts/posts ~/hexo-blog/source/_posts/
-
-      - name: set gitalk key
-        env:
-          GITALK_KEY: ${{ secrets.GITALK_KEY }}
-        run: |
-          sed -i "s/<GITALK_KEY>/$GITALK_KEY/g" ~/hexo-blog/themes/hexo-theme-next/_config.yml
-
-      - name: hexo install
-        run: |
-          cd ~/hexo-blog
-          npm install hexo-cli -g
-          npm install
-
-#      - name: debug
-#        uses: csexton/debugger-action@master
-
-      - name: hexo deploy
-        env:
-          GITALK_CLIENT_SECRET: ${{ secrets.GITALK_CLIENT_SECRET }}
-        run: |
-          cd ~/hexo-blog
-          hexo g -f -d
+          deploy_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          external_repository: vksir/vksir.github.io
+          publish_branch: master  # default: gh-pages
+          publish_dir: ./hugo/public

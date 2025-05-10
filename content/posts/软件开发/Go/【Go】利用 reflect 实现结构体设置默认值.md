@@ -9,6 +9,7 @@ tags:
 - struct
 - 软件开发
 title: 【Go】利用 reflect 实现结构体设置默认值
+url: posts/go_struct_default
 ---
 
 # 【Go】利用 reflect 实现结构体设置默认值

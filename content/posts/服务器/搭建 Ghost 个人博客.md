@@ -8,6 +8,7 @@ tags:
 - 博客
 - 服务器
 title: 搭建 Ghost 个人博客
+url: posts/ghost
 ---
 
 ## 安装必要的环境

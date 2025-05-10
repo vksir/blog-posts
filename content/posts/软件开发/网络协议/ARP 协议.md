@@ -7,6 +7,7 @@ tags:
 - 网络协议
 - 软件开发
 title: ARP 协议
+url: posts/arp
 ---
 
 ## ARP 格式

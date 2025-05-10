@@ -6,6 +6,7 @@ id: autocomplete
 tags:
 - linux
 title: 【Linux】Ubuntu 历史命令补全
+url: posts/autocomplete
 ---
 
 ## 前言

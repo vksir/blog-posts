@@ -8,6 +8,7 @@ tags:
 - python
 - 软件开发
 title: 【Python】日志 logging
+url: posts/logging
 ---
 
 记录 logging 简单用法。

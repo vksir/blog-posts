@@ -6,7 +6,39 @@ pagination:
 theme: PaperMod
 contentDir: ../content
 copyright: "© 2025 人间白玉楼 · [鄂ICP备20002696号-1](https://beian.miit.gov.cn/)"
+defaultContentLanguage: zh
 
+menu:
+  main:
+    - name: "搜索"
+      url: search/
+      weight: 1
+      pre: <i class="fa fa-search fa-fw"></i>
+
+    - name: "归档"
+      url: archives/
+      weight: 2
+      pre: <i class="fa fa-archive fa-fw"></i>
+
+    - name: "分类"
+      url: categories/
+      weight: 3
+      pre: <i class="fa fa-th fa-fw"></i>
+
+    - name: "标签"
+      url: tags/
+      weight: 4
+      pre: <i class="fa fa-tags fa-fw"></i>
+
+    - name: "友链"
+      url: friends/
+      weight: 5
+      pre: <i class="fa fa-users fa-fw"></i>
+
+    - name: "关于"
+      url: about/
+      weight: 6
+      pre: <i class="fa fa-user fa-fw"></i>
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -41,7 +73,7 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: true
@@ -134,26 +166,6 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
-menu:
-  main:
-    - name: 搜索
-      url: search/
-      weight: 1
-    - name: 归档
-      url: archives/
-      weight: 2
-    - name: 分类
-      url: categories/
-      weight: 3
-    - name: 标签
-      url: tags/
-      weight: 4
-    - name: 友链
-      url: friends/
-      weight: 5
-    - name: 关于
-      url: about/
-      weight: 6
 
 #    - identifier: example
 #      name: example.org
@@ -178,3 +190,7 @@ outputs:
     - HTML
     - RSS
     - JSON
+
+services:
+  disqus:
+    shortname: vksir

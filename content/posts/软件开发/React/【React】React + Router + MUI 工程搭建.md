@@ -11,6 +11,7 @@ tags:
 - 跨域
 - 软件开发
 title: 【React】React + Router + MUI 工程搭建
+url: posts/react
 ---
 
 ## 初始化

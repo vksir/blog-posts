@@ -7,6 +7,7 @@ tags:
 - php
 - 软件开发
 title: 【PHP】安装 PHP 7.x
+url: posts/php
 ---
 
 > 环境：CentOS 7

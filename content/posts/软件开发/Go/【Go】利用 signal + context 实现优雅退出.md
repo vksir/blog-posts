@@ -7,6 +7,7 @@ tags:
 - go
 - 软件开发
 title: 【Go】利用 signal + context 实现优雅退出
+url: posts/go-signal-context
 ---
 
 ```go

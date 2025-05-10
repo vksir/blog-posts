@@ -7,6 +7,7 @@ tags:
 - shell
 - 优质工具
 title: 【优质工具】Oh My Zsh 终端
+url: posts/onmyzsh
 ---
 
 ![ys](https://static.vksir.zone/img/-ys.png)

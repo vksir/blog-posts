@@ -9,6 +9,7 @@ tags:
 - 数据库
 - 软件开发
 title: 【MySQL】安装 MySQL
+url: posts/mysql
 ---
 
 > 主要内容：安装 & 基本操作 & 用户管理

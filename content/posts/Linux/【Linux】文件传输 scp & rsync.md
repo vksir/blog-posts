@@ -8,6 +8,7 @@ tags:
 - rsync
 - scp
 title: 【Linux】文件传输 scp & rsync
+url: posts/rsync
 ---
 
 > 环境：CentOS 7

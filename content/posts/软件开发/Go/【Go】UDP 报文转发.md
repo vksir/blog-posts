@@ -7,6 +7,7 @@ tags:
 - go
 - 软件开发
 title: 【Go】UDP 报文转发
+url: posts/go-udp-redirect
 ---
 
 【背景】
