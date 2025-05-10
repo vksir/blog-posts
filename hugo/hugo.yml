@@ -5,7 +5,16 @@ pagination:
   pagerSize: 10
 theme: PaperMod
 contentDir: ../content
-copyright: "© 2025 人间白玉楼 · [鄂ICP备20002696号-1](https://beian.miit.gov.cn/)"
+copyright:
+  <span id="busuanzi_container_site_pv">
+    总访问量 <span id="busuanzi_value_site_pv"></span> 次
+  </span>
+  .
+  <span id="busuanzi_container_site_uv">
+    访客数 <span id="busuanzi_value_site_uv"></span> 人次
+  </span>
+  <br>
+  © 2025 人间白玉楼 · [鄂ICP备20002696号-1](https://beian.miit.gov.cn/)
 defaultContentLanguage: zh
 
 menu:
@@ -56,14 +65,14 @@ params:
   title: 人间白玉楼
   description: "Vksir's blog | 行你所想"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Vksir
+  author:
   # author: ["Me", "You"] # multiple authors
   images: ["https://static.vksir.zone/img/vksir.jpg"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: false
@@ -150,10 +159,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/vksir/blog-posts/blob/master/posts/"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+#  editPost:
+#    URL: "https://github.com/vksir/blog-posts/blob/master/posts/"
+#    Text: "Suggest Changes" # edit text
+#    appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html

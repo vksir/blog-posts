@@ -7,6 +7,6 @@ code {
     text-align: center;
 }
 
-.fa {
-    margin-right: 4px;
+.fa, .far, .fas {
+    margin-right: 6px;
 }
