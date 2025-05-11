@@ -1,10 +1,12 @@
 ---
 categories:
-- Linux
+- 速记
 date: 2022-11-20 21:20:59.860989
+draft: false
 id: autocomplete
 tags:
 - linux
+- 速记
 title: 【Linux】Ubuntu 历史命令补全
 url: posts/autocomplete
 ---

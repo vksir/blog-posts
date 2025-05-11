@@ -1,11 +1,13 @@
 ---
 categories:
-- Linux
+- 速记
 date: 2021-07-12 22:55:46
+draft: false
 id: ssh
 tags:
 - linux
 - ssh
+- 速记
 title: 【Linux】SSH 常用命令
 url: posts/ssh
 ---

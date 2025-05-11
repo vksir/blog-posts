@@ -2,6 +2,7 @@
 categories:
 - 服务器
 date: 2020-04-16 17:04:16
+draft: false
 id: jupyter-notebook
 tags:
 - jupyter

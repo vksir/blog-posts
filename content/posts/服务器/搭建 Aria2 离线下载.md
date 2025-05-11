@@ -2,6 +2,7 @@
 categories:
 - 服务器
 date: 2020-03-06 22:50:48
+draft: false
 id: aria2
 tags:
 - aria2

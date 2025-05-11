@@ -1,11 +1,13 @@
 ---
 categories:
-- 服务器
+- 博客
 date: 2022-05-08 14:05:18.734259
+draft: false
 id: hexo-3
 tags:
 - ci/cd
 - hexo
+- 博客
 - 服务器
 title: 【Hexo】CI/CD——持续集成&持续部署
 url: posts/hexo-3

@@ -1,7 +1,8 @@
 # Vksir's Blog
 
-## Build
+## Run
 
 ```
+cd ./hugo
 hugo server -D
 ```

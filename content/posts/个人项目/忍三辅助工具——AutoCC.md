@@ -2,6 +2,7 @@
 categories:
 - 个人项目
 date: 2020-04-16 18:13:39
+draft: false
 id: autocc
 mathjax: true
 tags:

@@ -1,11 +1,13 @@
 ---
 categories:
-- Linux
+- 速记
 date: 2021-07-12 23:04:47
+draft: false
 id: selenium
 tags:
 - linux
 - selenium
+- 速记
 title: 【Linux】无界面使用 Selenium
 url: posts/selenium
 ---

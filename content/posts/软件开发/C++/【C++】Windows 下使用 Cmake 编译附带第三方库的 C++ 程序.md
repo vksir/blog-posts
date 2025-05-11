@@ -2,6 +2,7 @@
 categories:
 - 软件开发
 date: 2022-12-17 07:06:20.994384
+draft: false
 id: windows_cmake
 tags:
 - c++

@@ -1,10 +1,12 @@
 ---
 categories:
-- Linux
+- 速记
 date: 2020-03-06 21:33:38
+draft: false
 id: linux_user
 tags:
 - linux
+- 速记
 title: 【Linux】用户 & 权限
 url: posts/linux_user
 ---

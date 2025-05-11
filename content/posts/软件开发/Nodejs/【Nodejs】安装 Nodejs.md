@@ -2,6 +2,7 @@
 categories:
 - 软件开发
 date: 2020-03-05 18:48:04
+draft: false
 id: nodejs
 tags:
 - linux

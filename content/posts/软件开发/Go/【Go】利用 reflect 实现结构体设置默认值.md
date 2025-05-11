@@ -2,6 +2,7 @@
 categories:
 - 软件开发
 date: 2022-06-04 20:14:35.645296
+draft: false
 id: go_struct_default
 tags:
 - go

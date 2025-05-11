@@ -2,6 +2,7 @@
 categories:
 - 软件开发
 date: 2020-03-11 00:04:21
+draft: false
 id: ssl
 tags:
 - linux

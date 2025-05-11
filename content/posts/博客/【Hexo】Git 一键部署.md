@@ -1,7 +1,8 @@
 ---
 categories:
-- 服务器
+- 博客
 date: 2020-03-06 23:10:28
+draft: false
 id: hexo-2
 tags:
 - hexo

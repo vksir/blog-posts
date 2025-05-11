@@ -1,10 +1,12 @@
 ---
 categories:
-- 优质工具
+- 速记
 date: 2022-12-17 07:06:20.959438
+draft: false
 id: clion_cygwin
 tags:
 - 优质工具
+- 速记
 title: 【开发技巧】为 Clion 配置 Cygwin Terminal
 url: posts/clion_cygwin
 ---

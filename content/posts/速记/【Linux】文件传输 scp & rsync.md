@@ -1,12 +1,14 @@
 ---
 categories:
-- Linux
+- 速记
 date: 2020-03-06 23:04:47
+draft: false
 id: rsync
 tags:
 - linux
 - rsync
 - scp
+- 速记
 title: 【Linux】文件传输 scp & rsync
 url: posts/rsync
 ---

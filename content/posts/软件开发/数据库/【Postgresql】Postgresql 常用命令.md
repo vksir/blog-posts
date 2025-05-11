@@ -2,6 +2,7 @@
 categories:
 - 软件开发
 date: 2023-02-08 02:29:21.451912
+draft: false
 id: postgresql_cmd
 tags:
 - 数据库

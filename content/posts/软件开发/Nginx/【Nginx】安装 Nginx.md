@@ -2,6 +2,7 @@
 categories:
 - 软件开发
 date: 2020-03-06 22:36:00
+draft: false
 id: nginx
 tags:
 - linux

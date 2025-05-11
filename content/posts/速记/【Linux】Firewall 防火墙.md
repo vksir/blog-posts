@@ -1,11 +1,13 @@
 ---
 categories:
-- Linux
+- 速记
 date: 2020-03-06 21:43:39
+draft: false
 id: firewall
 tags:
 - firewall
 - linux
+- 速记
 title: 【Linux】Firewall 防火墙
 url: posts/firewall
 ---

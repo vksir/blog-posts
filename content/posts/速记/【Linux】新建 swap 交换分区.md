@@ -1,11 +1,13 @@
 ---
 categories:
-- Linux
+- 速记
 date: 2022-09-01 00:09:58.292528
+draft: false
 id: swap
 tags:
 - linux
 - swap
+- 速记
 title: 【Linux】新建 swap 交换分区
 url: posts/swap
 ---

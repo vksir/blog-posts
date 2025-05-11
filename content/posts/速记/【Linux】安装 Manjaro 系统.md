@@ -1,12 +1,14 @@
 ---
 categories:
-- Linux
+- 速记
 comments: false
 date: 2022-04-23 18:18:50.281708
+draft: false
 id: manjaro
 tags:
 - linux
 - manjaro
+- 速记
 title: 【Linux】安装 Manjaro 系统
 url: posts/manjaro
 ---

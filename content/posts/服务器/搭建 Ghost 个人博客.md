@@ -2,6 +2,7 @@
 categories:
 - 服务器
 date: 2020-03-06 22:14:19
+draft: false
 id: ghost
 tags:
 - ghost

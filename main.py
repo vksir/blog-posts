@@ -12,13 +12,14 @@ class Post:
     METADATA_TAGS = 'tags'
     METADATA_DATE = 'date'
     METADATA_UPDATED = 'updated'
+    METADATA_DRAFT = 'draft'
 
     TEXT_MORE = '<!-- more -->'
     TEXT_MORE_LINES = 8
 
     def __init__(self, path, filename, category, tags):
         self.path = path
-        self.title = filename[:-3]
+        self.filename = filename[:-3]
         self.category = category
         self.tags = tags
 
@@ -27,6 +28,7 @@ class Post:
         self.text = ''
 
         self.metadata_id = ''
+        self.data = {}
 
     def analyze(self):
         self._analyze_content()
@@ -51,7 +53,10 @@ class Post:
         data = yaml.load(self.metadata, yaml.Loader)
 
         # title
-        data.setdefault(self.METADATA_TITLE, self.title)
+        if not data.get(self.METADATA_TITLE):
+            res = re.search(r'【(.*?)】(.*)', self.filename)
+            title = f'{res.group(1)} / {res.group(2)}' if res else self.filename
+            data.setdefault(self.METADATA_TITLE, title)
         # url
         data.setdefault(self.METADATA_ID, '')
         # category
@@ -62,6 +67,8 @@ class Post:
         data[self.METADATA_TAGS].sort()
         # date
         data.setdefault(self.METADATA_DATE, datetime.datetime.now())
+        # draft
+        data.setdefault(self.METADATA_DRAFT, False)
 
         # hexo 使用 id 字段作为 url，且 id 前固定跟前缀 posts，形如 https://xxx.xxx.xx/posts/onmyzsh
         # hugo 使用 url 字段，无前缀
@@ -69,6 +76,7 @@ class Post:
 
         self.metadata = yaml.dump(data, allow_unicode=True)
         self.metadata_id = data[self.METADATA_ID]
+        self.data = data
 
     def _complete_text_more(self):
         self.text = re.sub(r'\n%s\n' % self.TEXT_MORE, '', self.text)
@@ -164,6 +172,10 @@ def main():
         raise Exception(f'duplicate id: {len(metadata_ids)} != {len(raw_metadata_ids)}\n'
                         f'{json.dumps(duplicate_ids, indent=4)}')
 
+    # posts.sort(key=lambda p: p.data[Post.METADATA_DATE])
+    # for post in posts:
+    #     print(post.data[Post.METADATA_TITLE])
+    print(f'总计文章数: {len(posts)}')
 
 if __name__ == '__main__':
     main()

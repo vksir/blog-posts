@@ -2,6 +2,7 @@
 categories:
 - 软件开发
 date: 2020-03-06 21:38:10
+draft: false
 id: mysql
 tags:
 - linux

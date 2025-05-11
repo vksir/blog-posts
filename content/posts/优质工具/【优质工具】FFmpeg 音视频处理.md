@@ -2,11 +2,12 @@
 categories:
 - 优质工具
 date: 2020-03-06 22:58:30
+draft: false
 id: ffmpeg
 tags:
 - 优质工具
 - 视频处理
-title: 【优质工具】FFmpeg 视频处理
+title: 优质工具 / FFmpeg 音视频处理
 url: posts/ffmpeg
 ---
 
@@ -26,44 +27,6 @@ url: posts/ffmpeg
 > 环境：CentOS 7
 >
 > 需求：None
-
-<!-- more -->
-
-## 安装
-
-使用第三方源安装比较简单，但是安装的版本非常低，不推荐。
-
-```bash
-# 使用第三方源安装
-yum install epel-release
-rpm --import http://li.nux.ro/download/nux/RPM-GPG-KEY-nux.ro
-rpm -Uvh http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
-yum install ffmpeg -y
-
-# 安装官方静态构建
-# 创建安装目录
-mkdir /usr/local/ffmpeg -p && cd /usr/local/ffmpeg
-# 下载
-wget -O ffmpeg.tar.xz https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz
-# tar.xz 文件解压
-xz -d ffmpeg.tar.xz
-tar -xvf ffmpeg.tar
-# 让目录更美观
-mv ffmpeg-4.2.2-amd64-static/* ./ && rm -r ffmpeg-4.2.2-amd64-static
-# 建立软链接
-ln -s /usr/local/ffmpeg/ffmpeg /usr/local/bin
-ln -s /usr/local/ffmpeg/ffprobe /usr/local/bin
-
-# 查看版本
-ffmpeg -version
-```
-
-在解压命令中：
-
-- -d：解压
-- -x：extract——解压
-- -v：verbose——显示指令执行过程
-- -f：file——指定文件
 
 ## 常用参数
 
@@ -92,7 +55,7 @@ ffmpeg -version
 
 不过没关系，日常使用根本不用了解那么多~
 
-## 常用场景
+## 视频处理
 
 ### 视频压缩
 
@@ -139,18 +102,10 @@ ffmpeg -i name.mp4 -c:a copy -vn output.aac
 ffmpeg -i name.mp4 -c:v copy -an output.mp4
 ```
 
-## 进阶使用
+## 音频处理
 
-视频处理可是个耗时的活儿，轻轻松松 CPU 飙升 100%，还要运行好几个小时。我们不可能一直 ssh 连接着服务器，这时候就需要后台运行了。
+### flac 转 mp3
 
-```bash
-# 后台运行
-nohup <command> &
-# 以较低优先级后台运行
-nice nohup <command> &
-# 查看输出流
-tail -f nohup.out
-# 停止后台运行
-ps -aux | grep ffmpeg
-kill -9 <PID>
+```
+ffmpeg -i "1.flac" -ab 320k -map_metadata 0 -id3v2_version 3 "1.mp3"
 ```

@@ -2,6 +2,7 @@
 categories:
 - 软件开发
 date: 2021-08-07 12:56:59
+draft: false
 id: subprocess
 tags:
 - python

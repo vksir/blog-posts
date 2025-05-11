@@ -51,8 +51,8 @@ menu:
 
 enableRobotsTXT: true
 buildDrafts: false
-buildFuture: false
-buildExpired: false
+buildFuture: true
+buildExpired: true
 
 googleAnalytics: UA-123-45
 

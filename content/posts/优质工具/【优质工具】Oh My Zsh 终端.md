@@ -2,6 +2,7 @@
 categories:
 - 优质工具
 date: 2020-03-06 23:02:54
+draft: false
 id: onmyzsh
 tags:
 - shell
