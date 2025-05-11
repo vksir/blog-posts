@@ -21,15 +21,15 @@ jobs:
 
       - name: Build
         run: |
-          pwd
-          ls -l
-          cd ./hugo
+          cd ${{ github.workspace }}/hugo
           hugo --minify
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Setup Rclone
+        uses: AnimMouse/setup-rclone@v1
         with:
-          deploy_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          external_repository: vksir/vksir.github.io
-          publish_branch: master  # default: gh-pages
-          publish_dir: ./hugo/public
+          rclone_config: ${{ secrets.RCLONE_CONFIG }}   # From base64 -w 0 rclone.conf
+
+      - name: Deploy
+        run: |
+          cd ${{ github.workspace }}
+          rclone sync ./hugo/public/ vksir_zone:/opt/www/
