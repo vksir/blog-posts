@@ -3,6 +3,7 @@ title: 关于本站
 comments: true
 date: 2023-03-07 01:08:34
 type: "about"
+layout: "single"
 ---
 
 这里是——**白玉楼の小窝**（一定要这么叫！才显得温馨）。
@@ -59,5 +60,3 @@ type: "about"
 <i class="fa fa-fw fa-github"></i> [GitHub](https://www.github.com/vksir)
 
 <img style="border-radius:50%;height:130px;margin:30px auto 0" alt="Vksir" src="https://static.vksir.zone/img/vksir.jpg">
-
----

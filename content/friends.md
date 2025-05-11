@@ -2,6 +2,7 @@
 title: 友链
 comments: true
 date: 2020-03-09 22:44:54
+layout: "single"
 ---
 
 <html>
@@ -39,13 +40,6 @@ date: 2020-03-09 22:44:54
 				style="background: url(https://i.loli.net/2019/05/04/5ccd2f658815a.png);"
 			></div>
 			<span>温锦瑜的博客</span>
-		</a>
-		<a class="card" href="https://blog.fedfans.com/" target="_blank">
-			<div
-				class="avatar"
-				style="background: url(https://avatars.githubusercontent.com/u/6525544?s=80&v=4);"
-			></div>
-			<span>金炳的博客</span>
 		</a>
 	</body>
 </html>
